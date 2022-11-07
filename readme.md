@@ -14,14 +14,25 @@ Introducción al Machine Learning
 ## Programa
 
 1.  Introducción Machine Learning
+
 2.  Clasificación
+
+    -   Naive Bayes (teoría).
+    -   Árboles de Decisión.
+    -   Regresión Logística.
+
 3.  Regresión
-4.  Etapas Modelamiento
+
+    -   Regresión Lineal
+
+4.  Métodos de Ensamble
+
+5.  Etapas Modelamiento
 
 ## Slides
 
 1.  [Machine Learning & Árboles
-    <code><small>parykit</small></code>](https://jbkunst.github.io/intro-elementos-ds/slides/01-Machine-Learning-Arboles.html)
+    <code><small>parykit</small></code>](https://jbkunst.github.io/intro-machie-learning/slides/01-Machine-Learning-Arboles.html)
 
 ## Repositorio
 
