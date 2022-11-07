@@ -15,7 +15,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 1.  Introducción Machine Learning
 1.  Clasificación
+  
+    - Naive Bayes (teoría).
+    - Árboles de Decisión.
+    - Regresión Logística.
+
 1.  Regresión
+
+    - Regresión Lineal
+
+1. Métodos de Ensamble
+    
 1.  Etapas Modelamiento
 
 ## Slides
@@ -27,7 +37,7 @@ slides_files <- dir("slides", full.names = TRUE)  |>
 
 slides_url <- file.path(
   "https://jbkunst.github.io",
-  "intro-elementos-ds",
+  "intro-machie-learning",
   slides_files
   )
 
