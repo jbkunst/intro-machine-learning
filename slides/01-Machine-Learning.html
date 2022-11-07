@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>01-Machine-Learning</title>
+    <meta charset="utf-8" />
+    <meta name="author" content=" Joshua Kunst @jbkunst" />
+    <meta name="date" content="2022-11-07" />
+    <script src="libs/header-attrs-2.17/header-attrs.js"></script>
+    <link rel="stylesheet" href="css/xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: left, middle, title-slide
+
+.title[
+# Intro Machine Learning
+]
+.subtitle[
+## 01 Machine Learning
+]
+.author[
+### <br>Joshua Kunst<br><span class="citation">@jbkunst</span>
+]
+.date[
+### 2022-11-07
+]
+
+---
+
+
+
+
+
+## Antes de empezar
+
+- Repositorio del curso https://github.com/jbkunst/intro-machine-learning 
+encontraremos el programa, clases, datos.
+
+- La bibliografía principal será _Tidy modelling with R_ https://www.tmwr.org/, 
+nos servirá como guía en nuestro programa.
+
+- Como introducción utilizaremos el blogpost [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/).
+
+---
+
+## R y Rstudio (repaso)
+
+R es el lenguaje de programación que utilizaremos (como C++, python) y RStudio es un IDE para
+R (como PyCharm para python por ejemplo).
+
+Para utilizar R se puede hacer, en un principio, de dos maneras:
+
+1. Instalar R y RStuiod en tu PC.
+2. Utilizar desde la nube con https://rstudio.cloud/.
+
+Más detalles en las diferencias en https://github.com/rivaquiroga/taller-r-doctorado-educacion-2022/blob/master/preparacion-instalacion.md
+
+Para conocer un poco más de RStudio https://github.com/rivaquiroga/RLadies-Santiago/blob/master/primeros_pasos_en_R.md.
+
+Cada uno de los links son de autoría de [Riva Quiroga](https://rivaquiroga.cl/).
+
+---
+
+## Inteligencia artificial
+
+La inteligencia artificial es, en ciencias de la computación, la disciplina que intenta replicar y desarrollar la inteligencia y sus procesos implícitos a través de computadoras.
+
+&lt;img src="images/ai-map.jpg" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Machine learning
+
+El aprendizaje de máquinas es una rama de la inteligencia artificial, cuyo objetivo es desarrollar técnicas que permitan que las computadoras _aprendan_.
+
+&lt;img src="images/machine-learning-map.jpg" width="55%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Clasificación
+
+https://vas3k.com/blog/machine_learning/#scroll70.
+
+Separar objetos basado en atributos conocidos de antemano. Usado para:
+
+* Filtro Spam.
+* Detección de Lenguaje.
+* Detección de fraude.
+* Venta de productos financieros.
+
+Algoritmos populares: Arbol de decisión, Regresión logística, 
+Naive Bayes, KNN (K-Nearest Neighbours).
+
+
+---
+
+## Naive Bayes
+
+&lt;img src="images/naive-bayes.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+&lt;small&gt;Suponga que se tienen 1.000 _good_ y 1.000 _spam_. Calcule probabilidad
+de que sea Spam dado que contiene la palabra Kitty.&lt;/small&gt;
+
+
+---
+
+## Naive Bayes (cont.)
+
+Suponga que se tienen 1.000 _good_ y 1.000 _spam_. Calcule probabilidad
+de que sea Spam dado que contiene la palabra Kitty.
+
+`$$\begin{aligned} 
+ \Pr(Spam|Kitty) &amp;= \frac{\Pr(Kitty|Spam) \Pr(Spam)}{\Pr(Kitty)} \\ 
+                 &amp;= \frac{ \frac{13}{1000} \times \frac{1000}{1000+1000}}{\frac{672 + 13}{1000+1000}}   \\
+                 &amp;= 0.0189781
+\end{aligned}$$`
+
+
+---
+
+## Árbol de Decisión (Decision tree)
+
+[Una introducción visual al machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/).
+
+&lt;img src="images/decision-tree.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+*library(tidyverse)
+```
+]
+ 
+.panel2-arbol-auto[
+
+]
+
+---
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+library(tidyverse)
+*library(partykit)
+```
+]
+ 
+.panel2-arbol-auto[
+
+]
+
+---
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+library(tidyverse)
+library(partykit)
+
+*ruta &lt;- "https://raw.githubusercontent.com/jadeyee/r2d3-part-1-data/master/part_1_data.csv"
+```
+]
+ 
+.panel2-arbol-auto[
+
+]
+
+---
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+library(tidyverse)
+library(partykit)
+
+ruta &lt;- "https://raw.githubusercontent.com/jadeyee/r2d3-part-1-data/master/part_1_data.csv"
+
+*datos &lt;- readr::read_csv(ruta, skip = 2)
+```
+]
+ 
+.panel2-arbol-auto[
+
+]
+
+---
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+library(tidyverse)
+library(partykit)
+
+ruta &lt;- "https://raw.githubusercontent.com/jadeyee/r2d3-part-1-data/master/part_1_data.csv"
+
+datos &lt;- readr::read_csv(ruta, skip = 2)
+
+*datos &lt;- datos
+```
+]
+ 
+.panel2-arbol-auto[
+
+]
+
+---
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+library(tidyverse)
+library(partykit)
+
+ruta &lt;- "https://raw.githubusercontent.com/jadeyee/r2d3-part-1-data/master/part_1_data.csv"
+
+datos &lt;- readr::read_csv(ruta, skip = 2)
+
+datos &lt;- datos |&gt;
+* mutate(in_sf = factor(ifelse(in_sf == 1, "SF", "NY")))
+```
+]
+ 
+.panel2-arbol-auto[
+
+]
+
+---
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+library(tidyverse)
+library(partykit)
+
+ruta &lt;- "https://raw.githubusercontent.com/jadeyee/r2d3-part-1-data/master/part_1_data.csv"
+
+datos &lt;- readr::read_csv(ruta, skip = 2)
+
+datos &lt;- datos |&gt;
+  mutate(in_sf = factor(ifelse(in_sf == 1, "SF", "NY")))
+
+*arbol &lt;- ctree(in_sf ~ ., data = datos)
+```
+]
+ 
+.panel2-arbol-auto[
+
+]
+
+---
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+library(tidyverse)
+library(partykit)
+
+ruta &lt;- "https://raw.githubusercontent.com/jadeyee/r2d3-part-1-data/master/part_1_data.csv"
+
+datos &lt;- readr::read_csv(ruta, skip = 2)
+
+datos &lt;- datos |&gt;
+  mutate(in_sf = factor(ifelse(in_sf == 1, "SF", "NY")))
+
+arbol &lt;- ctree(in_sf ~ ., data = datos)
+
+*arbol
+```
+]
+ 
+.panel2-arbol-auto[
+
+```
+## 
+## Model formula:
+## in_sf ~ beds + bath + price + year_built + sqft + price_per_sqft + 
+##     elevation
+## 
+## Fitted party:
+## [1] root
+## |   [2] elevation &lt;= 30
+## |   |   [3] price_per_sqft &lt;= 1072
+## |   |   |   [4] year_built &lt;= 1970
+## |   |   |   |   [5] beds &lt;= 1
+## |   |   |   |   |   [6] sqft &lt;= 750: NY (n = 27, err = 0.0%)
+## |   |   |   |   |   [7] sqft &gt; 750: NY (n = 11, err = 36.4%)
+## |   |   |   |   [8] beds &gt; 1: NY (n = 33, err = 48.5%)
+## |   |   |   [9] year_built &gt; 1970: SF (n = 46, err = 6.5%)
+## |   |   [10] price_per_sqft &gt; 1072
+## |   |   |   [11] price_per_sqft &lt;= 1465
+## |   |   |   |   [12] year_built &lt;= 1999: NY (n = 49, err = 6.1%)
+## |   |   |   |   [13] year_built &gt; 1999: SF (n = 21, err = 38.1%)
+## |   |   |   [14] price_per_sqft &gt; 1465: NY (n = 113, err = 5.3%)
+## |   [15] elevation &gt; 30
+## |   |   [16] elevation &lt;= 39: SF (n = 22, err = 27.3%)
+## |   |   [17] elevation &gt; 39: SF (n = 170, err = 1.8%)
+## 
+## Number of inner nodes:    8
+## Number of terminal nodes: 9
+```
+]
+
+---
+count: false
+ 
+## Árbol de Decisión en R
+.panel1-arbol-auto[
+
+```r
+library(tidyverse)
+library(partykit)
+
+ruta &lt;- "https://raw.githubusercontent.com/jadeyee/r2d3-part-1-data/master/part_1_data.csv"
+
+datos &lt;- readr::read_csv(ruta, skip = 2)
+
+datos &lt;- datos |&gt;
+  mutate(in_sf = factor(ifelse(in_sf == 1, "SF", "NY")))
+
+arbol &lt;- ctree(in_sf ~ ., data = datos)
+
+arbol
+
+# siguiente slide
+*# plot(arbol)  # plot(arbol)
+```
+]
+ 
+.panel2-arbol-auto[
+
+```
+## 
+## Model formula:
+## in_sf ~ beds + bath + price + year_built + sqft + price_per_sqft + 
+##     elevation
+## 
+## Fitted party:
+## [1] root
+## |   [2] elevation &lt;= 30
+## |   |   [3] price_per_sqft &lt;= 1072
+## |   |   |   [4] year_built &lt;= 1970
+## |   |   |   |   [5] beds &lt;= 1
+## |   |   |   |   |   [6] sqft &lt;= 750: NY (n = 27, err = 0.0%)
+## |   |   |   |   |   [7] sqft &gt; 750: NY (n = 11, err = 36.4%)
+## |   |   |   |   [8] beds &gt; 1: NY (n = 33, err = 48.5%)
+## |   |   |   [9] year_built &gt; 1970: SF (n = 46, err = 6.5%)
+## |   |   [10] price_per_sqft &gt; 1072
+## |   |   |   [11] price_per_sqft &lt;= 1465
+## |   |   |   |   [12] year_built &lt;= 1999: NY (n = 49, err = 6.1%)
+## |   |   |   |   [13] year_built &gt; 1999: SF (n = 21, err = 38.1%)
+## |   |   |   [14] price_per_sqft &gt; 1465: NY (n = 113, err = 5.3%)
+## |   [15] elevation &gt; 30
+## |   |   [16] elevation &lt;= 39: SF (n = 22, err = 27.3%)
+## |   |   [17] elevation &gt; 39: SF (n = 170, err = 1.8%)
+## 
+## Number of inner nodes:    8
+## Number of terminal nodes: 9
+```
+]
+
+&lt;style&gt;
+.panel1-arbol-auto {
+  color: black;
+  width: 49%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel2-arbol-auto {
+  color: black;
+  width: 49%;
+  hight: 32%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+.panel3-arbol-auto {
+  color: black;
+  width: NA%;
+  hight: 33%;
+  float: left;
+  padding-left: 1%;
+  font-size: 80%
+}
+&lt;/style&gt;
+
+
+
+
+
+---
+
+## Árbol de Decisión en R (cont.)
+
+&lt;img src="01-Machine-Learning_files/figure-html/unnamed-chunk-5-1.svg" width="100%" /&gt;
+
+---
+
+## Árbol de Decisión (cont.)
+
+Existen muchos tipos de algoritmos de árboles.
+
+Básicamente se diferencias en:
+
+* La forma de seleccionar cual es la variable
+que mejor separa los subconjuntos (etiquetas/variable respuesta) y,
+* Como se obtiene el límite de dicha variable.
+
+
+Algoritmos conocidos son CART, CHAID, [C4.5](https://en.wikipedia.org/wiki/C4.5_algorithm),
+C5.0, Conditional Inference Trees.
+
+
+---
+
+## Más información sobre Machine Learning
+
+- [Tidy Modeling with R](https://www.tmwr.org/).
+
+- [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/).
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
