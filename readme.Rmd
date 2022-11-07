@@ -1,0 +1,74 @@
+---
+title: "Introducción al Machine Learning"
+output:
+  github_document:
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Programa
+
+1.  Introducción Machine Learning
+1.  Clasificación
+1.  Regresión
+1.  Etapas Modelamiento
+
+## Slides
+
+```{r, results='asis'}
+slides_files <- dir("slides", full.names = TRUE)  |> 
+  stringr::str_subset(".html") |> 
+  stringr::str_subset("99", negate = TRUE)
+
+slides_url <- file.path(
+  "https://jbkunst.github.io",
+  "intro-elementos-ds",
+  slides_files
+  )
+
+slides_nms <- slides_files |> 
+  stringr::str_replace("html$", "Rmd") |> 
+  purrr::map(rmarkdown::yaml_front_matter) |> 
+  purrr::map(purrr::pluck, "subtitle") |> 
+  stringr::str_remove("^[0-9]+") |> 
+  # stringr::str_remove("\\.html$") |> 
+  stringr::str_replace_all("\\-", " ") |> 
+  stringr::str_trim()
+
+# n <-  "R Rstudio Copy Paste"
+# u <- "https://jbkunst.github.io/usach-ingemat-intro-elementos-ds-202201/01-R-Rstudio-copy-paste.html"
+
+purrr::walk2(slides_nms, slides_url, ~ {cat(stringr::str_glue("1. [{ n }]({ u })", n = .x, u = .y)); cat("\n")})
+```
+
+## Repositorio
+
+Repositorio del curso en github https://github.com/jbkunst/intro-machine-learning. Acá podrás
+encontrar datos, código fuente de las slides, evaluaciones, etc.
+
+## Bibliografía
+
+- [Tidy Modeling with R](https://www.tmwr.org/).
+- [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/).
+- [R para Ciencia de Datos](https://es.r4ds.hadley.nz/).
+- [R for Data Science](https://r4ds.hadley.nz/).
+
+
+## Dinámicas de clase (Segundo semestre 2022)
+
+### Online
+  - Objetivo principal: Mostrar contenidos, ejemplos y fuentes de información. Programar en conjunto (pair programming).
+  - Horario: Lunes 16:45-18.10 
+  - Lugar: Via google meet https://meet.google.com/upx-rxan-vwt
+
+
+### Presencial
+  - Objetivo principal: Realizar ejercicios, responder dudas y repasar contenidos previos.
+  - Horario: Miércoles 17:10-18:40.
+  - Lugar: Laboratorio 208. 
+

@@ -1,8 +1,8 @@
 ---
 # title: "{ingemat}§2e|0l|2e|2m|2e|1n|0[-]t|1o|3[++]s|2  d|2s|2{202201}[26°c[10°c]"
 title: "Intro Machine Learning"
-pagetitle: "01-Machine-Learning"
-subtitle: "01 Machine Learning"
+pagetitle: "01-Machine-Learning-&-Árboles"
+subtitle: "01 Machine Learning & Árboles <code><small>parykit</small></code>"
 author: "<br>Joshua Kunst<br>@jbkunst"
 date: '`r Sys.Date()`'
 output:
@@ -66,6 +66,17 @@ knitr::include_graphics("images/ai-map.jpg")
 
 ---
 
+## Inteligencia artificial (cont.)
+
+
+Diferencia con el machine learning:
+
+De https://azure.microsoft.com/en-in/solutions/ai/artificial-intelligence-vs-machine-learning/#introduction:
+
+Una computadora "inteligente" usa IA para pensar como un humano y realizar tareas por sí misma. El aprendizaje automático es cómo un sistema informático desarrolla su inteligencia.
+
+---
+
 ## Machine learning
 
 El aprendizaje de máquinas es una rama de la inteligencia artificial, cuyo objetivo es desarrollar técnicas que permitan que las computadoras _aprendan_.
@@ -116,6 +127,13 @@ $$\begin{aligned}
                  &= 0.0189781
 \end{aligned}$$
 
+--
+
+* ¿Qué características observamos en este método?
+* ¿Qué ocurre si tenemos más variables, como por ejemplo la hora del email, 
+dominio del correo? Ver siguiente [link](https://leasetruk.medium.com/naive-bayes-classifier-with-examples-7b541f9ffedf).
+
+
 
 ---
 
@@ -161,11 +179,21 @@ plot(arbol, gp = gpar(fontsize = 8))
 
 ---
 
-## Árbol de Decisión (cont.)
+## Partes del Árbol de Decisión
 
-Existen muchos tipos de algoritmos de árboles.
+Las partes del árbol son:
 
-Básicamente se diferencias en:
+1. Nodo: Que refleja que **variable** se utiliza para evaluar la condición.
+1. Rama: Se define en base a la **región** de la variable especificada en el nodo previo.
+1. Hoja: Especifica el **resultado** de la variable respuesta.
+
+https://cran.r-project.org/web/packages/ggparty/vignettes/ggparty-graphic-partying.html
+
+---
+
+## Tipos de Árbol de Decisión
+
+Existen muchos tipos de algoritmos de árboles. Básicamente se diferencian en:
 
 * La forma de seleccionar cual es la variable
 que mejor separa los subconjuntos (etiquetas/variable respuesta) y,

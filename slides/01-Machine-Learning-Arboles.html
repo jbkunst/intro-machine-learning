@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>01-Machine-Learning</title>
+    <title>01-Machine-Learning-&amp;-Árboles</title>
     <meta charset="utf-8" />
     <meta name="author" content=" Joshua Kunst @jbkunst" />
     <meta name="date" content="2022-11-07" />
@@ -17,7 +17,7 @@ class: left, middle, title-slide
 # Intro Machine Learning
 ]
 .subtitle[
-## 01 Machine Learning
+## 01 Machine Learning &amp; Árboles <code><small>parykit</small></code>
 ]
 .author[
 ### <br>Joshua Kunst<br><span class="citation">@jbkunst</span>
@@ -70,6 +70,17 @@ La inteligencia artificial es, en ciencias de la computación, la disciplina que
 
 ---
 
+## Inteligencia artificial (cont.)
+
+
+Diferencia con el machine learning:
+
+De https://azure.microsoft.com/en-in/solutions/ai/artificial-intelligence-vs-machine-learning/#introduction:
+
+Una computadora "inteligente" usa IA para pensar como un humano y realizar tareas por sí misma. El aprendizaje automático es cómo un sistema informático desarrolla su inteligencia.
+
+---
+
 ## Machine learning
 
 El aprendizaje de máquinas es una rama de la inteligencia artificial, cuyo objetivo es desarrollar técnicas que permitan que las computadoras _aprendan_.
@@ -115,6 +126,14 @@ de que sea Spam dado que contiene la palabra Kitty.
                  &amp;= \frac{ \frac{13}{1000} \times \frac{1000}{1000+1000}}{\frac{672 + 13}{1000+1000}}   \\
                  &amp;= 0.0189781
 \end{aligned}$$`
+
+--
+
+
+* ¿Qué características observamos en este método?
+* ¿Qué ocurre si tenemos más variables, como por ejemplo la hora del email, 
+dominio del correo? Ver siguiente [link](https://leasetruk.medium.com/naive-bayes-classifier-with-examples-7b541f9ffedf).
+
 
 
 ---
@@ -414,15 +433,25 @@ arbol
 
 ## Árbol de Decisión en R (cont.)
 
-&lt;img src="01-Machine-Learning_files/figure-html/unnamed-chunk-5-1.svg" width="100%" /&gt;
+&lt;img src="01-Machine-Learning-Arboles_files/figure-html/unnamed-chunk-5-1.svg" width="100%" /&gt;
 
 ---
 
-## Árbol de Decisión (cont.)
+## Partes del Árbol de Decisión
 
-Existen muchos tipos de algoritmos de árboles.
+Las partes del árbol son:
 
-Básicamente se diferencias en:
+1. Nodo: Que refleja que **variable** se utiliza para evaluar la condición.
+1. Rama: Se define en base a la **región** de la variable especificada en el nodo previo.
+1. Hoja: Especifica el **resultado** de la variable respuesta.
+
+https://cran.r-project.org/web/packages/ggparty/vignettes/ggparty-graphic-partying.html
+
+---
+
+## Tipos de Árbol de Decisión
+
+Existen muchos tipos de algoritmos de árboles. Básicamente se diferencian en:
 
 * La forma de seleccionar cual es la variable
 que mejor separa los subconjuntos (etiquetas/variable respuesta) y,
