@@ -1,0 +1,56 @@
+---
+# title: "{ingemat}§2e|0l|2e|2m|2e|1n|0[-]t|1o|3[++]s|2  d|2s|2{202201}[26°c[10°c]"
+title: "Intro Machine Learning"
+pagetitle: "02-Regresión-Logística"
+subtitle: "03 Regresión Logística"
+author: "<br>Joshua Kunst<br>@jbkunst"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    self_contained: no
+    css: ["css/xaringan-themer.css", "css/styles.css"]
+    lib_dir: libs    
+    nature:
+      titleSlideClass: ["left", "middle"]
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r setup, include=FALSE}
+source(here::here("R/00-xaringan-knitr-setup.R"))
+```
+
+## Regresión Logística (cont. Clasificación)
+
+Si bien el método se llama _Regresión Logística_ es un modelo que se
+utilza para clasificar respuestas **binarias**. Esto debido a su forma:
+
+$$p_{i}={\frac {1}{1+e^{-(\beta _{0}+\beta _{1}x_{1,i}+\cdots +\beta _{k}x_{k,i})}}}$$
+
+Done $L(X_i) = \beta _{0}+\beta _{1}x_{1,i}+\cdots +\beta _{k}x_{k,i}$ es la combinación lineal de los predictores de la observación $i$.
+
+---
+
+## Regresión Lineal (ejercicios I)
+
+- Calcule el límite de los valores de $p_i$ dependiendo si $L(X_i)$ toma valores muy grandes o muy pequeños.
+- Grafique en R la función $f_1(x)={\frac {1}{1+e^{-x}}}$ y la function $f_2(x)={\frac {1}{1+e^{-(5 + 8x)}}}$.
+
+- Lea los datos de la clase anterior:
+
+  1. Grafique un diagrama de puntos utilizando las variables $x = elevation$ e $y = in_sf$
+  1. Utilizando la intuición dibuje sobre el gráfico anterior alguna función de la forma $f(x)={\frac {1}{1+e^{-(\beta_0 + \beta_1 elevation)}}}$ escogiendo los "mejores" $(\beta_0, \beta_1)$.
+  1. Genere una grilla de valores $(\beta_0, \beta_1)$ y evalue alguna métrica de ajuste para encontrar
+los "mejores" $(\beta_0, \beta_1)$.
+
+
+
+
+
+

@@ -37,7 +37,7 @@ slides_files <- dir("slides", full.names = TRUE)  |>
 
 slides_url <- file.path(
   "https://jbkunst.github.io",
-  "intro-machie-learning",
+  "intro-machine-learning",
   slides_files
   )
 
