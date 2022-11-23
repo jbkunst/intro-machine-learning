@@ -4,7 +4,7 @@
     <title>02-Regresión-Logística</title>
     <meta charset="utf-8" />
     <meta name="author" content=" Joshua Kunst @jbkunst" />
-    <meta name="date" content="2022-11-14" />
+    <meta name="date" content="2022-11-23" />
     <script src="libs/header-attrs-2.17/header-attrs.js"></script>
     <link rel="stylesheet" href="css/xaringan-themer.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
@@ -17,13 +17,13 @@ class: left, middle, title-slide
 # Intro Machine Learning
 ]
 .subtitle[
-## 03 Regresión Logística
+## 02 Regresión Logística
 ]
 .author[
 ### <br>Joshua Kunst<br><span class="citation">@jbkunst</span>
 ]
 .date[
-### 2022-11-14
+### 2022-11-23
 ]
 
 ---
@@ -39,7 +39,8 @@ utilza para clasificar respuestas **binarias**. Esto debido a su forma:
 
 `$$p_{i}={\frac {1}{1+e^{-(\beta _{0}+\beta _{1}x_{1,i}+\cdots +\beta _{k}x_{k,i})}}}$$`
 
-Done `\(L(X_i) = \beta _{0}+\beta _{1}x_{1,i}+\cdots +\beta _{k}x_{k,i}\)` es la combinación lineal de los predictores de la observación `\(i\)`.
+Donde `\(L(X_i) = \beta _{0}+\beta _{1}x_{1,i}+\cdots +\beta _{k}x_{k,i}\)` es la combinación lineal de los predictores de la observación `\(i\)`.
+
 
 ---
 
@@ -48,18 +49,142 @@ Done `\(L(X_i) = \beta _{0}+\beta _{1}x_{1,i}+\cdots +\beta _{k}x_{k,i}\)` es la
 - Calcule el límite de los valores de `\(p_i\)` dependiendo si `\(L(X_i)\)` toma valores muy grandes o muy pequeños.
 - Grafique en R la función `\(f_1(x)={\frac {1}{1+e^{-x}}}\)` y la function `\(f_2(x)={\frac {1}{1+e^{-(5 + 8x)}}}\)`.
 
-- Lea los datos de la clase anterior:
 
-  1. Grafique un diagrama de puntos utilizando las variables `\(x = elevation\)` e `\(y = in_sf\)`
-  1. Utilizando la intuición dibuje sobre el gráfico anterior alguna función de la forma `\(f(x)={\frac {1}{1+e^{-(\beta_0 + \beta_1 elevation)}}}\)` escogiendo los "mejores" `\((\beta_0, \beta_1)\)`.
-  1. Genere una grilla de valores `\((\beta_0, \beta_1)\)` y evalue alguna métrica de ajuste para encontrar
+
+---
+
+## Regresión Lineal (ejercicios II)
+
+
+Lea los datos de la clase anterior:
+
+1. Grafique un diagrama de puntos utilizando las variables `\(x = elevation\)` e `\(y = in_sf\)`
+
+1. Utilizando la intuición dibuje sobre el gráfico anterior alguna función de la forma `\(f(x)={\frac {1}{1+e^{-(\beta_0 + \beta_1 elevation)}}}\)` escogiendo los "mejores" `\((\beta_0, \beta_1)\)`.
+
+1. Genere una grilla de valores `\((\beta_0, \beta_1)\)` y evalue alguna métrica de ajuste para encontrar
 los "mejores" `\((\beta_0, \beta_1)\)`.
 
+1. Grafique un diagrama de puntos utilizando las variables `\(x = elevation\)` e `\(y = price\)` y coloreando
+por `\(z = in_sf\)`. 
+
+
+---
+
+## Intuición de ajuste de Regresión Logístca
 
 
 
 
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-2-1.svg" width="100%" /&gt;
 
+|term        |   estimate| std.error|  statistic|   p.value|Signif |
+|:-----------|----------:|---------:|----------:|---------:|:------|
+|(Intercept) | -118.17448|  296535.1| -0.0003985| 0.9996820|       |
+|x           |   47.26979|  116310.6|  0.0004064| 0.9996757|       |
+
+
+---
+
+## Intuición de ajuste de Regresión Logístca (cont 2)
+
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-3-1.svg" width="100%" /&gt;
+
+|term        |  estimate| std.error|  statistic|  p.value|Signif |
+|:-----------|---------:|---------:|----------:|--------:|:------|
+|(Intercept) | -39.15601| 15299.515| -0.0025593| 0.997958|       |
+|x           |  19.57801|  7649.757|  0.0025593| 0.997958|       |
+
+---
+
+## Intuición de ajuste de Regresión Logístca (cont 3)
+
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-4-1.svg" width="100%" /&gt;
+
+|term        |  estimate| std.error|  statistic|   p.value|Signif |
+|:-----------|---------:|---------:|----------:|---------:|:------|
+|(Intercept) | -1.605557|  2.329178| -0.6893236| 0.4906197|       |
+|x           |  1.189880|  1.228101|  0.9688777| 0.3326062|       |
+
+---
+
+## Intuición de ajuste de Regresión Logístca (cont 4)
+
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-5-1.svg" width="100%" /&gt;
+
+|term        | estimate| std.error| statistic| p.value|Signif |
+|:-----------|--------:|---------:|---------:|-------:|:------|
+|(Intercept) |        0| 1.7320508|         0|       1|       |
+|x           |        0| 0.6324555|         0|       1|       |
+
+---
+
+## Intuición de ajuste de Regresión Logístca (cont 5)
+
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-6-1.svg" width="100%" /&gt;
+
+|term        |  estimate| std.error|  statistic|   p.value|Signif |
+|:-----------|---------:|---------:|----------:|---------:|:------|
+|(Intercept) | 118.17448|  296535.1|  0.0003985| 0.9996820|       |
+|x           | -47.26979|  116310.6| -0.0004064| 0.9996757|       |
+
+---
+
+## Intuición de ajuste de Regresión Logístca (cont 6)
+
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-7-1.svg" width="100%" /&gt;
+
+|term        |     estimate|   std.error|  statistic|   p.value|Signif |
+|:-----------|------------:|-----------:|----------:|---------:|:------|
+|(Intercept) | -118.1744812| 296535.0724| -0.0003985| 0.9996820|       |
+|x           |    0.0472698|    116.3106|  0.0004064| 0.9996757|       |
+
+---
+
+## Intuición de ajuste de Regresión Logístca (cont 7)
+
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-8-1.svg" width="100%" /&gt;
+
+|term        |   estimate|   std.error|  statistic|   p.value|Signif |
+|:-----------|----------:|-----------:|----------:|---------:|:------|
+|(Intercept) |  -118.1745|    296535.1| -0.0003985| 0.9996820|       |
+|x           | 47269.7925| 116310597.4|  0.0004064| 0.9996757|       |
+
+---
+
+## Intuición Regresión Logístca (cont 8) elevation
+
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-9-1.svg" width="100%" /&gt;
+
+|term        |   estimate| std.error| statistic| p.value|Signif |
+|:-----------|----------:|---------:|---------:|-------:|:------|
+|(Intercept) | -1.6308944| 0.1796968| -9.075812|       0|†††    |
+|x           |  0.0671364| 0.0072140|  9.306450|       0|†††    |
+
+---
+
+## Intuición Regresión Logístca (cont 9) sqft
+
+&lt;img src="02-Regresion-Logística_files/figure-html/unnamed-chunk-10-1.svg" width="100%" /&gt;
+
+|term        |   estimate| std.error| statistic|   p.value|Signif |
+|:-----------|----------:|---------:|---------:|---------:|:------|
+|(Intercept) | -0.1805700| 0.1705457| -1.058777| 0.2897011|       |
+|x           |  0.0002395| 0.0000977|  2.451270| 0.0142353|†      |
+
+
+---
+
+## Ejercicios II
+
+
+1. En los datos del repositorio lea los datos de crédto de entrenamiento y
+valdación (train/test si le gusta el _ingelishon_).
+
+1. Encuentre el mejor modelo de regresión logística con 4 variables. Use su intuición
+sobre lo que intuye/conoce del _negocio_.
+
+1. Que modelo (árbol/regresión logística) performa mejor en la muestra de validación?
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

@@ -1,0 +1,1456 @@
+estado,antiguedad,vivienda,plazo,edad,estado_civil,registros,trabajo,gastos,ingresos,activos,deuda,cantidad,precio
+bueno,8,privado,60,30,casado,no,fijo,35,55,8000,5500,2000,2552
+malo,4,propietario,24,22,soltero,no,fijo,35,97,3216,0,1000,1000
+bueno,11,propietario,60,54,casado,no,fijo,45,230,15000,0,1200,1415
+bueno,5,propietario,12,60,casado,no,fijo,60,125,5000,0,400,1361
+malo,7,alquila,48,43,casado,no,fijo,44,92,0,0,1300,1653
+bueno,9,alquila,60,31,soltero,no,fijo,44,87,0,0,1200,1364
+bueno,12,propietario,60,28,soltero,no,fijo,35,126,15000,0,1350,1381
+bueno,5,padres,36,29,soltero,no,fijo,35,134,0,0,300,425
+bueno,20,propietario,36,49,casado,no,freelance,60,NA,44000,0,2220,2220
+bueno,5,padres,60,23,soltero,no,freelance,35,85,0,0,948,1148
+bueno,11,propietario,36,40,casado,no,fijo,45,203,8000,4000,900,1674
+bueno,1,padres,18,25,soltero,no,tiempo parcial,35,47,0,0,400,1367
+bueno,20,alquila,48,46,casado,no,fijo,98,230,0,0,650,900
+bueno,10,propietario,24,50,casado,no,freelance,45,102,6000,0,1000,2445
+malo,1,padres,60,26,soltero,no,tiempo parcial,35,NA,0,0,2400,2599
+malo,3,privado,24,47,casado,no,fijo,60,116,4000,1500,800,1000
+bueno,11,propietario,60,38,casado,sí,fijo,60,352,5000,0,1300,1850
+bueno,2,alquila,60,36,soltero,no,fijo,52,170,0,0,1300,1400
+bueno,18,propietario,60,35,casado,no,fijo,45,92,4000,0,950,1250
+malo,15,privado,48,49,casado,sí,fijo,60,112,2000,1000,900,960
+malo,2,alquila,60,40,soltero,sí,fijo,104,138,5000,300,1700,1879
+bueno,5,padres,12,41,casado,no,freelance,35,NA,0,0,900,1925
+bueno,13,padres,36,34,soltero,no,fijo,35,90,0,0,500,1014
+malo,3,privado,36,53,viudo,no,otros,105,84,2500,500,700,890
+malo,0,alquila,36,27,casado,no,tiempo parcial,42,72,0,0,700,925
+malo,0,padres,36,23,soltero,no,fijo,35,200,0,0,1100,2095
+malo,0,otra,60,27,casado,no,freelance,60,NA,0,0,1400,1453
+malo,0,propietario,48,49,casado,no,tiempo parcial,35,136,5000,1600,900,1178
+bueno,9,propietario,60,24,casado,no,fijo,35,125,4000,0,1000,1174
+bueno,12,propietario,36,49,casado,no,freelance,35,78,12000,2000,1000,1200
+bueno,2,otra,60,23,casado,no,freelance,35,140,0,0,1400,1581
+malo,6,padres,60,29,soltero,no,freelance,35,NA,3500,0,1000,1183
+bueno,9,alquila,48,23,casado,no,fijo,65,197,0,0,400,2305
+bueno,22,propietario,48,44,soltero,no,fijo,35,122,5000,0,900,1500
+malo,0,privado,60,39,casado,no,tiempo parcial,35,85,1500,0,1270,1405
+bueno,0,propietario,60,27,soltero,no,fijo,35,87,15000,0,1000,1034
+malo,18,propietario,18,38,casado,sí,freelance,60,93,20000,0,950,1350
+bueno,10,padres,36,50,separado,no,fijo,35,86,0,0,700,1473
+malo,1,privado,48,63,casado,no,otros,35,NA,2000,0,500,1400
+bueno,2,otra,30,21,soltero,no,fijo,35,53,5000,0,1000,1525
+bueno,30,propietario,48,53,casado,no,freelance,45,NA,38000,0,1600,2120
+bueno,3,padres,36,28,soltero,no,fijo,35,91,0,0,1000,2050
+bueno,15,propietario,60,48,casado,no,fijo,45,105,3000,0,250,1092
+bueno,10,otra,60,50,soltero,no,fijo,35,147,0,0,1080,1152
+malo,1,padres,36,26,soltero,sí,tiempo parcial,35,335,0,0,600,700
+malo,5,padres,48,28,casado,no,fijo,35,173,0,0,1600,1630
+bueno,3,alquila,60,24,soltero,no,fijo,60,147,0,0,1050,1351
+bueno,11,propietario,60,28,casado,no,fijo,75,260,24000,0,1400,1852
+malo,4,alquila,36,24,casado,no,tiempo parcial,55,100,0,0,650,725
+bueno,12,propietario,48,35,soltero,no,fijo,45,264,25000,1700,1000,1560
+bueno,4,propietario,24,49,casado,no,fijo,45,132,15000,0,850,1338
+bueno,1,padres,60,23,soltero,no,fijo,35,53,80000,0,1150,1409
+bueno,3,propietario,60,51,casado,no,fijo,35,123,25000,0,1800,2208
+bueno,12,privado,60,45,casado,no,fijo,45,292,NA,0,950,997
+malo,29,alquila,60,55,casado,sí,fijo,45,100,0,0,1400,1530
+bueno,3,propietario,60,64,viudo,no,otros,35,135,2500,0,650,660
+bueno,0,propietario,60,42,casado,sí,tiempo parcial,35,90,3000,1500,1200,1438
+malo,2,ignorar,12,32,casado,sí,fijo,45,60,3000,0,1000,1800
+bueno,29,propietario,48,60,casado,no,fijo,35,152,3500,0,1050,1550
+bueno,20,propietario,24,42,casado,sí,freelance,60,145,10000,0,1000,1622
+bueno,2,padres,60,23,soltero,sí,fijo,35,80,0,0,1570,1671
+bueno,22,propietario,48,53,casado,no,fijo,35,110,5000,0,1500,1683
+bueno,14,padres,36,30,casado,no,fijo,35,172,0,0,1100,1505
+bueno,5,otra,24,33,casado,no,fijo,60,115,0,0,400,1600
+bueno,8,propietario,36,37,casado,sí,fijo,75,190,20000,0,1000,2105
+bueno,5,propietario,60,26,casado,no,fijo,35,56,6000,0,1100,1151
+bueno,23,propietario,48,45,casado,no,fijo,90,298,10000,3500,500,1111
+bueno,1,propietario,60,28,casado,sí,fijo,35,72,6000,0,1150,2100
+malo,0,alquila,12,23,casado,no,tiempo parcial,43,80,0,0,200,1200
+bueno,40,propietario,36,59,casado,no,freelance,35,NA,17000,3000,500,1571
+bueno,6,propietario,60,22,soltero,no,fijo,45,233,10000,0,850,1014
+bueno,1,padres,60,33,casado,no,fijo,60,355,12000,0,1900,2150
+bueno,3,padres,48,25,soltero,no,fijo,35,32,0,0,700,1114
+malo,0,padres,60,22,soltero,no,tiempo parcial,35,49,0,0,1250,1316
+bueno,8,propietario,36,25,casado,no,fijo,35,185,3000,0,1600,2202
+bueno,2,alquila,60,28,soltero,no,fijo,47,115,0,0,1000,1015
+bueno,1,padres,60,21,soltero,sí,freelance,35,73,0,0,800,899
+malo,0,propietario,48,42,separado,sí,fijo,60,119,15000,0,800,800
+malo,3,privado,60,35,casado,sí,fijo,45,219,1000,0,1000,1232
+bueno,14,propietario,48,44,casado,no,fijo,60,105,3000,0,500,1745
+malo,8,alquila,60,58,casado,no,fijo,35,NA,0,0,1700,2136
+bueno,6,alquila,60,23,casado,no,fijo,48,134,0,0,1000,1064
+malo,0,propietario,60,41,casado,no,tiempo parcial,45,40,4500,80,800,825
+bueno,3,otra,60,27,soltero,no,fijo,35,184,4700,700,1400,1640
+bueno,1,padres,60,20,casado,no,tiempo parcial,35,90,0,0,1370,1499
+malo,7,alquila,60,22,casado,no,tiempo parcial,47,119,0,0,1040,1200
+bueno,2,privado,60,21,soltero,no,freelance,35,170,4000,0,1000,1522
+bueno,19,privado,60,55,casado,no,fijo,45,118,4000,0,1300,1661
+bueno,0,padres,12,24,soltero,no,freelance,35,85,0,0,240,240
+bueno,1,padres,36,23,soltero,no,fijo,35,95,0,0,1000,1639
+bueno,4,alquila,48,33,casado,no,fijo,58,133,0,0,1500,1784
+bueno,4,padres,30,30,soltero,no,fijo,35,81,0,0,600,775
+bueno,2,privado,60,35,casado,no,fijo,35,190,9900,2000,700,782
+bueno,20,propietario,60,54,casado,no,fijo,60,191,5000,0,600,1400
+bueno,1,otra,24,46,casado,no,tiempo parcial,45,70,2500,0,390,590
+bueno,10,alquila,48,53,casado,no,fijo,48,127,0,0,500,1000
+malo,4,alquila,60,58,casado,sí,freelance,60,NA,0,0,900,2906
+bueno,3,propietario,60,41,casado,no,freelance,60,142,14000,0,1889,1889
+bueno,15,propietario,60,41,casado,no,fijo,35,125,10000,0,1000,1040
+bueno,5,alquila,48,26,separado,no,fijo,53,178,0,0,1200,2279
+bueno,26,propietario,48,49,casado,no,fijo,60,240,2000,0,1750,2047
+bueno,6,propietario,36,23,casado,no,fijo,45,125,3500,1500,650,1158
+bueno,8,alquila,54,29,casado,no,fijo,43,80,0,0,1000,1241
+malo,15,propietario,48,53,casado,no,freelance,45,200,15000,3500,1650,2000
+bueno,1,padres,12,21,soltero,no,otros,35,NA,0,0,800,1428
+bueno,7,propietario,36,25,casado,no,fijo,35,70,3000,750,650,700
+malo,10,alquila,60,38,casado,sí,freelance,60,NA,8000,0,2200,2387
+bueno,19,propietario,36,47,casado,no,fijo,35,110,12000,1600,1400,1883
+bueno,7,propietario,60,26,casado,no,fijo,35,132,5000,2400,650,900
+bueno,10,privado,36,41,casado,no,fijo,45,168,11500,4000,250,500
+bueno,20,padres,36,38,casado,sí,freelance,60,NA,25000,0,1500,1650
+malo,2,privado,24,41,casado,sí,freelance,90,19,5000,0,800,1900
+bueno,5,alquila,24,36,casado,no,fijo,70,100,0,0,700,2995
+bueno,2,otra,36,31,casado,no,fijo,45,130,0,0,600,1135
+malo,2,privado,48,44,casado,no,otros,60,95,4300,0,1250,1250
+bueno,3,padres,60,23,soltero,no,freelance,45,70,4000,0,1000,1330
+bueno,10,alquila,36,45,casado,sí,fijo,83,383,0,0,800,4300
+malo,10,propietario,48,35,casado,no,fijo,45,63,5000,350,1000,1580
+bueno,0,padres,48,20,soltero,no,tiempo parcial,35,215,15000,0,1100,1100
+bueno,4,padres,60,26,soltero,no,fijo,35,104,2500,2000,1048,1048
+bueno,2,padres,48,27,casado,no,fijo,45,164,0,0,1100,1464
+bueno,20,propietario,30,55,casado,no,freelance,75,NA,25000,0,1100,1930
+bueno,0,padres,48,19,soltero,no,tiempo parcial,35,53,0,0,1250,1310
+bueno,1,propietario,12,34,casado,no,freelance,60,NA,12000,0,400,600
+bueno,4,alquila,60,29,casado,sí,fijo,59,142,1000,0,1250,1267
+bueno,18,propietario,60,51,casado,sí,fijo,45,182,5000,0,1500,1500
+bueno,1,alquila,60,23,casado,sí,fijo,54,92,0,0,1450,1626
+bueno,15,privado,60,31,casado,no,fijo,60,100,2500,800,1000,1323
+malo,0,alquila,60,36,casado,no,otros,47,121,0,0,900,1423
+bueno,6,otra,60,20,casado,no,fijo,45,130,0,0,1250,1404
+malo,10,privado,60,30,casado,no,fijo,35,123,2000,0,1600,1600
+malo,10,propietario,60,62,casado,no,fijo,60,78,6000,0,1130,1130
+bueno,4,otra,36,27,soltero,no,freelance,35,41,0,0,200,795
+bueno,6,padres,48,27,soltero,no,fijo,35,113,4000,0,990,995
+bueno,6,privado,60,35,casado,no,fijo,45,160,3000,1200,900,1612
+bueno,2,propietario,48,50,casado,no,fijo,35,86,4000,0,900,1221
+bueno,14,padres,60,31,casado,no,fijo,35,100,0,0,1500,1500
+malo,0,otra,36,19,soltero,no,fijo,35,100,0,0,650,650
+malo,1,padres,60,38,casado,no,tiempo parcial,60,92,3500,0,1000,1025
+malo,10,propietario,48,63,casado,sí,freelance,35,NA,3000,0,4000,4769
+bueno,3,privado,60,27,casado,no,fijo,45,194,3500,1000,700,1083
+bueno,2,propietario,36,23,soltero,no,freelance,45,135,10000,0,1250,1400
+malo,2,padres,60,25,soltero,sí,tiempo parcial,35,65,0,0,1500,1892
+bueno,5,padres,60,30,casado,no,freelance,45,189,0,0,2000,2312
+bueno,2,propietario,48,57,casado,sí,fijo,45,200,15000,0,1300,2700
+bueno,3,propietario,36,40,casado,no,fijo,35,158,14000,0,700,850
+bueno,25,propietario,24,48,casado,no,fijo,35,97,3500,0,225,525
+bueno,9,padres,60,26,casado,no,fijo,35,180,0,0,1300,1512
+bueno,15,propietario,24,39,casado,no,fijo,60,180,4500,0,590,1793
+malo,7,propietario,60,34,casado,no,fijo,45,119,4000,0,2000,2221
+bueno,16,privado,48,51,casado,no,fijo,45,130,3000,500,500,964
+bueno,23,propietario,48,47,casado,no,fijo,105,139,2500,0,750,940
+bueno,2,propietario,24,29,soltero,no,fijo,35,117,9000,0,500,1875
+malo,14,propietario,60,38,casado,sí,fijo,60,145,5000,2400,1200,1383
+bueno,20,privado,48,38,casado,no,fijo,60,57,2500,0,900,1246
+bueno,38,alquila,60,57,casado,no,fijo,56,210,0,0,1350,1520
+bueno,2,alquila,48,31,casado,no,freelance,90,296,0,0,1450,2255
+bueno,15,propietario,60,48,separado,no,fijo,45,150,21000,0,1150,1579
+bueno,13,privado,60,40,casado,no,fijo,60,100,3500,540,970,1270
+bueno,6,padres,48,46,casado,no,fijo,35,205,0,0,800,1450
+bueno,1,propietario,24,60,casado,no,otros,75,93,4000,0,400,1138
+bueno,10,alquila,36,33,casado,no,fijo,68,84,0,0,400,470
+malo,7,padres,36,22,soltero,no,tiempo parcial,35,77,0,0,800,875
+bueno,16,propietario,18,32,casado,sí,fijo,60,140,12000,240,250,542
+bueno,1,alquila,36,30,soltero,no,fijo,49,141,0,0,700,850
+bueno,5,privado,24,42,casado,no,fijo,60,86,800,0,250,857
+bueno,2,propietario,48,23,casado,no,fijo,35,125,3000,1600,1000,1259
+bueno,7,alquila,12,41,separado,no,freelance,35,NA,1200,0,200,850
+bueno,1,propietario,60,33,casado,no,fijo,60,93,3500,0,1190,1190
+malo,5,alquila,36,32,casado,sí,freelance,64,42,15000,0,1300,1450
+bueno,0,padres,60,39,casado,no,freelance,45,NA,0,0,1300,1796
+bueno,6,padres,12,23,soltero,no,fijo,35,100,0,0,475,1080
+bueno,8,alquila,60,31,casado,no,fijo,66,211,0,0,1950,2276
+malo,14,privado,18,28,casado,no,fijo,45,68,3000,0,200,400
+bueno,18,propietario,60,47,separado,no,fijo,35,240,6500,0,1795,1795
+bueno,18,propietario,36,45,casado,no,freelance,60,112,4500,0,700,1360
+bueno,20,propietario,30,52,casado,sí,fijo,45,85,3500,0,250,1287
+bueno,0,propietario,48,31,casado,no,fijo,45,122,4000,0,1000,1541
+bueno,0,alquila,60,35,soltero,no,fijo,60,250,0,0,1650,1673
+bueno,17,alquila,48,54,casado,no,fijo,168,325,0,0,860,1059
+bueno,10,padres,48,26,soltero,no,fijo,35,55,12000,0,750,768
+malo,10,privado,18,45,casado,sí,freelance,35,47,4000,350,375,475
+bueno,5,padres,60,24,soltero,no,fijo,35,120,0,0,900,1249
+bueno,3,propietario,48,25,casado,sí,freelance,35,NA,NA,0,500,1678
+bueno,0,propietario,36,42,casado,no,freelance,75,39,10000,0,800,1150
+malo,0,propietario,42,41,casado,no,freelance,60,NA,4000,0,2000,2516
+bueno,0,propietario,48,24,casado,no,tiempo parcial,35,150,5000,3130,1000,1404
+malo,4,alquila,48,43,casado,sí,freelance,45,NA,10000,0,1200,1518
+bueno,5,alquila,36,31,casado,no,freelance,46,109,0,0,400,750
+malo,1,privado,60,41,casado,sí,fijo,45,77,4000,0,1300,1673
+malo,1,alquila,36,39,separado,sí,otros,52,65,0,0,500,700
+bueno,5,alquila,36,30,casado,no,fijo,74,140,0,0,850,862
+malo,0,privado,60,34,casado,no,tiempo parcial,35,107,3000,2500,1000,1189
+bueno,5,privado,60,23,soltero,no,fijo,35,181,2000,0,1400,1643
+malo,2,propietario,60,33,casado,no,tiempo parcial,45,77,2500,0,1000,1197
+bueno,2,propietario,48,51,casado,no,freelance,60,241,6500,51,900,1100
+bueno,25,propietario,36,53,casado,no,fijo,45,350,NA,0,1000,2475
+bueno,6,padres,24,27,soltero,no,fijo,45,149,6500,0,850,1340
+bueno,2,padres,36,30,casado,sí,tiempo parcial,60,203,0,0,600,1549
+bueno,2,propietario,60,25,casado,no,fijo,35,158,6000,4380,1400,1423
+malo,0,propietario,60,26,casado,no,tiempo parcial,75,90,4000,2880,2000,2200
+bueno,1,propietario,60,28,casado,sí,fijo,60,150,3500,270,1000,1119
+bueno,10,alquila,60,49,casado,no,fijo,54,93,0,0,450,1298
+bueno,0,alquila,60,31,casado,no,otros,60,NA,5000,0,1300,1572
+bueno,2,propietario,24,47,casado,sí,freelance,35,95,7000,0,800,2333
+bueno,8,propietario,60,38,casado,no,fijo,35,218,8000,0,1500,1785
+bueno,15,propietario,36,45,casado,no,freelance,60,214,8000,0,1400,1500
+bueno,8,alquila,48,29,casado,no,fijo,42,70,0,0,1100,2111
+bueno,4,otra,24,43,casado,no,freelance,45,125,0,0,400,1100
+bueno,15,propietario,60,29,casado,no,fijo,45,110,4500,900,1300,1595
+bueno,2,alquila,60,40,casado,no,fijo,89,140,0,0,1250,1250
+malo,3,padres,48,28,soltero,no,freelance,35,79,0,0,1400,1958
+bueno,7,propietario,24,40,casado,no,fijo,60,123,5000,0,1000,2348
+bueno,13,alquila,60,39,divorciado,no,fijo,87,120,0,0,1400,1526
+malo,5,padres,60,40,casado,sí,fijo,45,100,0,0,1385,1385
+bueno,15,propietario,12,46,separado,no,freelance,35,85,15000,0,1000,1862
+bueno,1,padres,48,30,soltero,no,fijo,35,75,13000,0,1000,1300
+malo,0,propietario,60,32,casado,no,otros,45,77,4000,0,1750,2200
+malo,14,propietario,36,31,casado,no,freelance,60,NA,NA,NA,700,1100
+bueno,13,alquila,60,31,divorciado,sí,freelance,41,55,0,0,1350,1428
+bueno,2,padres,60,32,casado,no,tiempo parcial,75,60,0,0,1100,1347
+bueno,2,propietario,48,33,casado,no,fijo,45,173,4500,3000,300,1107
+bueno,7,propietario,60,47,casado,no,freelance,45,NA,9000,0,1500,1661
+malo,0,otra,48,56,casado,no,otros,45,105,25000,0,1900,2150
+bueno,6,otra,60,33,casado,no,fijo,75,95,0,0,1200,1820
+bueno,4,propietario,36,36,casado,no,fijo,45,75,4000,0,800,800
+malo,2,alquila,48,23,soltero,no,tiempo parcial,51,158,0,0,1300,1700
+bueno,20,padres,36,39,casado,no,freelance,60,346,35000,0,1900,2440
+malo,5,alquila,60,36,casado,sí,fijo,66,61,0,0,1100,1243
+malo,20,propietario,24,59,soltero,no,freelance,35,NA,NA,0,900,1059
+malo,1,alquila,36,46,casado,no,tiempo parcial,82,72,0,0,850,1418
+bueno,1,propietario,24,31,casado,no,fijo,35,207,10000,0,550,650
+bueno,10,padres,60,30,casado,no,fijo,60,195,800,0,1800,2400
+bueno,25,propietario,60,53,divorciado,sí,fijo,35,NA,40000,500,1200,1550
+malo,15,propietario,60,32,casado,no,fijo,60,105,7000,3700,1200,1204
+bueno,1,padres,48,23,soltero,no,tiempo parcial,35,103,0,0,820,1323
+bueno,1,padres,48,24,soltero,no,fijo,35,75,0,0,1050,1429
+malo,2,alquila,24,32,soltero,sí,freelance,35,NA,0,0,1700,2800
+bueno,24,propietario,36,42,casado,no,fijo,90,97,5800,0,500,1536
+bueno,11,alquila,60,43,casado,no,fijo,49,135,0,0,1200,1650
+bueno,5,propietario,36,47,casado,no,freelance,60,80,4000,0,350,385
+malo,5,alquila,60,25,casado,no,freelance,72,121,0,0,2000,2200
+bueno,2,propietario,36,53,casado,no,freelance,35,71,5000,0,800,1615
+bueno,2,propietario,36,37,casado,no,fijo,60,125,2000,0,450,1490
+bueno,13,propietario,36,59,casado,sí,fijo,35,170,6000,0,700,844
+malo,6,propietario,48,39,casado,no,freelance,75,NA,6000,0,1000,1177
+bueno,2,propietario,60,36,casado,no,fijo,60,190,4500,1200,1575,1611
+bueno,13,propietario,60,45,casado,no,fijo,75,475,5000,0,1300,2300
+bueno,0,otra,60,22,soltero,no,fijo,35,89,0,0,1400,1666
+bueno,1,padres,60,25,casado,no,fijo,35,140,0,0,2000,2100
+malo,8,alquila,60,34,casado,sí,fijo,80,200,0,0,1200,1800
+malo,0,alquila,36,23,casado,no,tiempo parcial,44,88,0,0,450,495
+bueno,8,padres,36,26,soltero,no,otros,35,NA,0,0,1300,1500
+malo,1,alquila,48,58,casado,no,freelance,108,180,12000,8000,1000,1668
+bueno,20,propietario,48,53,casado,no,freelance,60,83,7500,0,1200,1797
+bueno,21,privado,48,51,casado,no,fijo,60,110,2500,400,1000,1398
+malo,1,padres,60,23,soltero,no,fijo,35,100,0,0,1600,1642
+bueno,4,padres,24,33,soltero,no,fijo,35,125,0,0,750,1139
+bueno,12,privado,48,45,casado,no,fijo,45,159,5000,0,1200,1425
+bueno,1,alquila,60,58,casado,no,otros,46,105,5000,0,1000,1211
+bueno,13,propietario,60,38,casado,no,freelance,35,140,7500,0,350,1355
+bueno,10,propietario,36,59,casado,no,fijo,75,120,3000,0,250,850
+bueno,11,privado,60,56,casado,sí,fijo,35,100,2000,200,1220,1400
+bueno,20,propietario,48,50,casado,no,freelance,60,142,5000,0,650,1177
+malo,8,propietario,36,45,casado,sí,freelance,45,314,18000,0,2800,2960
+bueno,0,alquila,60,25,casado,no,tiempo parcial,41,64,0,0,1450,1537
+bueno,20,propietario,36,47,casado,no,freelance,60,NA,4000,0,800,1701
+malo,0,propietario,60,47,casado,sí,tiempo parcial,60,50,15000,0,1300,1841
+bueno,3,propietario,60,39,casado,no,fijo,60,120,4500,870,900,1580
+bueno,30,propietario,60,59,casado,no,freelance,45,250,10000,0,1000,1098
+malo,2,padres,60,35,casado,sí,tiempo parcial,75,130,0,0,1450,1480
+bueno,8,propietario,36,37,casado,sí,fijo,45,142,4500,300,370,870
+malo,1,alquila,36,23,casado,no,tiempo parcial,54,88,0,0,600,750
+bueno,14,propietario,30,37,casado,no,fijo,60,121,5000,0,650,1708
+malo,0,padres,48,28,soltero,no,freelance,35,65,3000,0,800,1800
+bueno,10,propietario,60,31,soltero,no,fijo,35,80,2500,900,1100,1320
+malo,3,propietario,48,38,casado,sí,fijo,45,125,5000,0,1285,1311
+bueno,15,propietario,24,53,casado,sí,freelance,60,245,30000,0,2400,4400
+malo,4,alquila,60,34,casado,sí,fijo,100,247,0,0,1700,2278
+malo,10,padres,48,54,casado,no,fijo,60,80,0,0,1100,1423
+bueno,12,propietario,60,31,casado,no,fijo,35,183,10000,2200,1300,1349
+bueno,25,alquila,60,52,casado,no,fijo,61,163,5000,900,1650,1683
+malo,0,padres,24,35,soltero,no,tiempo parcial,35,60,0,0,800,1560
+malo,0,privado,36,24,casado,sí,tiempo parcial,60,169,1500,0,690,790
+malo,5,propietario,42,32,casado,no,fijo,60,96,6000,800,1700,2349
+malo,1,propietario,48,24,casado,no,tiempo parcial,45,59,3000,1600,500,500
+malo,3,propietario,60,45,casado,no,freelance,60,NA,5000,0,1370,1403
+bueno,6,padres,36,26,casado,no,fijo,35,119,0,0,1000,2193
+malo,2,padres,36,30,soltero,no,freelance,35,NA,15000,0,2000,2600
+bueno,12,padres,24,28,soltero,no,fijo,35,102,4000,0,250,1150
+bueno,8,alquila,36,61,soltero,no,fijo,42,72,0,0,325,450
+bueno,5,alquila,36,30,soltero,sí,freelance,48,127,0,0,650,900
+bueno,2,padres,36,28,soltero,sí,fijo,35,51,0,0,325,525
+bueno,35,alquila,42,52,casado,sí,fijo,58,130,2000,0,1000,1777
+bueno,3,padres,60,26,soltero,no,fijo,35,83,0,0,1050,1156
+bueno,20,propietario,60,54,casado,no,fijo,35,100,5000,0,1600,2500
+bueno,17,propietario,24,36,casado,no,fijo,45,115,300,0,600,1642
+bueno,14,propietario,36,56,casado,no,fijo,35,160,2000,0,550,685
+bueno,6,padres,48,38,divorciado,no,fijo,35,98,0,0,500,580
+bueno,6,alquila,36,26,casado,no,fijo,47,120,0,0,1250,1657
+malo,2,padres,48,33,soltero,sí,tiempo parcial,35,82,0,0,1050,1332
+bueno,13,propietario,60,46,casado,sí,fijo,90,115,2500,350,1200,1222
+bueno,1,privado,60,26,casado,no,fijo,45,137,5000,0,1350,1471
+malo,2,padres,48,25,casado,no,fijo,35,48,6500,0,900,912
+bueno,20,propietario,18,47,casado,sí,freelance,60,NA,110000,0,1800,3300
+malo,1,padres,48,23,soltero,no,tiempo parcial,35,72,0,0,1078,1079
+bueno,15,propietario,24,40,casado,sí,fijo,35,143,10000,0,3000,6468
+bueno,8,padres,60,31,soltero,no,freelance,35,107,0,0,1250,1499
+bueno,3,propietario,36,28,casado,no,freelance,35,180,5000,0,375,1139
+bueno,9,padres,36,28,soltero,no,fijo,35,65,0,0,600,1446
+malo,0,padres,48,34,separado,no,freelance,35,NA,4000,0,2370,2540
+bueno,0,padres,60,24,soltero,no,tiempo parcial,35,103,8000,0,1070,1405
+malo,2,propietario,60,27,soltero,sí,fijo,35,120,8000,0,975,1140
+bueno,0,privado,18,27,casado,no,fijo,45,60,0,0,750,1050
+bueno,16,padres,60,30,casado,no,fijo,35,80,2000,0,1200,1371
+bueno,6,propietario,60,42,separado,no,fijo,35,87,10000,0,1400,1725
+bueno,4,propietario,24,40,casado,no,freelance,60,NA,5000,0,500,2260
+bueno,3,propietario,60,42,casado,no,fijo,60,143,5000,0,850,1059
+malo,7,alquila,36,29,casado,no,fijo,58,125,0,0,1100,1350
+bueno,20,propietario,60,37,NA,sí,freelance,35,70,10000,0,1300,1675
+bueno,15,propietario,60,35,casado,no,fijo,75,290,15000,0,775,951
+bueno,2,propietario,36,30,casado,no,fijo,45,350,4000,0,800,1800
+malo,1,propietario,24,56,casado,sí,fijo,45,151,7500,0,800,1300
+bueno,3,propietario,60,36,casado,no,freelance,60,139,6000,0,1200,1343
+bueno,20,propietario,60,48,casado,no,fijo,45,178,25000,700,800,1150
+bueno,0,padres,48,28,soltero,no,freelance,35,NA,0,0,720,1321
+malo,2,propietario,36,54,soltero,sí,fijo,35,352,30000,0,750,1061
+bueno,3,alquila,60,48,casado,no,otros,77,24,0,0,1700,1803
+malo,1,padres,48,40,soltero,sí,fijo,35,80,3500,0,1100,1144
+malo,2,alquila,36,31,casado,no,fijo,45,102,0,0,350,750
+bueno,2,padres,60,31,casado,no,fijo,35,175,NA,0,700,1350
+bueno,15,propietario,60,30,casado,no,fijo,60,140,4000,0,1500,1505
+bueno,14,propietario,48,39,casado,no,fijo,60,114,11800,0,1300,1926
+bueno,3,padres,18,21,soltero,no,fijo,35,176,8000,0,1200,2150
+bueno,1,padres,36,19,soltero,no,fijo,35,73,3000,0,1000,1200
+malo,5,propietario,60,34,casado,no,fijo,60,233,6000,2000,1980,2126
+malo,1,propietario,48,39,casado,sí,freelance,60,NA,6000,0,1300,3626
+malo,10,propietario,60,26,casado,no,fijo,35,73,4000,2000,1700,1900
+bueno,3,propietario,24,51,casado,no,freelance,60,NA,26000,300,3000,6900
+bueno,5,alquila,48,31,soltero,sí,fijo,47,120,0,0,900,1492
+bueno,5,padres,48,23,soltero,no,fijo,35,82,0,0,1550,1630
+bueno,2,propietario,60,23,soltero,no,fijo,45,75,7000,0,1070,1209
+bueno,35,propietario,24,51,casado,no,fijo,35,250,6000,0,450,1902
+malo,1,padres,36,24,soltero,sí,tiempo parcial,35,50,0,0,1750,1850
+bueno,15,otra,36,41,casado,no,fijo,45,195,0,0,525,600
+bueno,3,propietario,36,32,casado,no,freelance,60,NA,8000,12,1600,1600
+bueno,1,padres,24,21,soltero,no,tiempo parcial,35,90,0,0,900,1307
+bueno,15,propietario,48,37,casado,sí,freelance,45,178,30000,9500,2400,3120
+malo,0,padres,48,30,soltero,sí,fijo,35,274,0,0,2000,2354
+bueno,15,propietario,48,51,casado,no,fijo,45,85,4000,0,600,1298
+malo,10,alquila,24,39,soltero,sí,otros,55,195,0,0,400,435
+malo,1,padres,36,23,soltero,no,tiempo parcial,35,70,2000,0,1050,1410
+malo,1,propietario,60,53,casado,sí,freelance,35,NA,30000,0,1900,2362
+bueno,16,padres,60,31,casado,sí,fijo,35,150,0,0,1300,1400
+bueno,1,alquila,36,27,casado,sí,fijo,46,108,0,0,475,550
+bueno,0,propietario,60,56,casado,no,fijo,45,150,10000,0,1000,1798
+bueno,14,propietario,48,40,casado,no,fijo,75,335,8000,0,1800,2208
+bueno,4,alquila,60,24,casado,no,fijo,50,151,0,0,900,1155
+bueno,26,alquila,36,61,casado,no,fijo,56,109,0,0,400,425
+malo,2,otra,60,22,casado,sí,fijo,60,125,0,0,1100,1281
+malo,30,alquila,48,55,casado,sí,fijo,51,160,0,0,1100,1100
+bueno,11,padres,24,28,soltero,no,fijo,35,82,0,0,400,800
+bueno,25,alquila,60,52,casado,no,fijo,55,199,0,0,1250,1262
+malo,7,alquila,60,32,casado,no,fijo,46,111,0,0,1200,1373
+bueno,2,propietario,48,44,casado,sí,fijo,60,310,20000,600,1700,2700
+malo,2,alquila,48,31,casado,no,freelance,45,NA,0,0,1300,1300
+bueno,11,padres,60,27,soltero,sí,fijo,35,57,0,0,600,1537
+malo,0,ignorar,36,38,casado,no,tiempo parcial,60,95,0,0,1000,1647
+bueno,11,propietario,60,34,soltero,no,fijo,35,103,4500,2000,1200,1410
+bueno,15,alquila,48,40,casado,no,fijo,57,120,0,0,1000,1500
+bueno,8,padres,36,26,soltero,no,fijo,35,65,0,0,500,1715
+malo,1,alquila,36,44,casado,sí,fijo,54,90,0,0,1500,2100
+malo,0,alquila,48,46,casado,no,tiempo parcial,72,116,0,0,860,965
+malo,2,propietario,60,32,casado,no,tiempo parcial,60,75,5500,1500,1400,1732
+bueno,9,propietario,12,30,casado,sí,freelance,60,93,6500,2235,500,1550
+malo,1,propietario,24,49,casado,sí,tiempo parcial,35,90,7000,0,265,300
+bueno,2,padres,48,24,soltero,no,fijo,35,64,0,0,1500,1734
+bueno,3,padres,60,35,soltero,no,fijo,35,190,2500,0,1400,1561
+bueno,14,alquila,60,30,casado,no,fijo,55,95,0,0,850,1015
+bueno,3,propietario,48,29,soltero,no,fijo,35,76,4000,1500,800,1500
+malo,0,propietario,60,27,casado,no,tiempo parcial,35,74,5000,2500,1550,1555
+bueno,7,otra,60,27,soltero,no,fijo,35,78,0,0,1500,1878
+bueno,0,alquila,60,44,casado,no,freelance,45,NA,6000,0,1600,1725
+bueno,16,propietario,48,41,casado,no,fijo,45,108,9000,0,1150,1235
+bueno,20,propietario,60,47,casado,no,fijo,90,212,11000,0,1150,1669
+malo,3,otra,60,29,casado,no,freelance,35,128,0,0,1100,1350
+bueno,23,otra,60,43,casado,no,fijo,60,155,0,0,1650,2270
+bueno,4,propietario,12,54,casado,no,fijo,75,83,3000,0,600,1468
+bueno,8,propietario,60,34,casado,no,fijo,45,100,3500,0,1300,1300
+bueno,15,alquila,48,33,casado,no,fijo,78,179,0,0,1150,1661
+bueno,8,propietario,36,58,casado,no,fijo,35,85,10000,0,1000,1510
+malo,1,otra,60,33,soltero,no,tiempo parcial,35,96,0,0,700,1640
+bueno,1,propietario,48,59,casado,no,otros,35,33,6000,0,850,900
+bueno,0,propietario,60,64,casado,no,otros,35,101,5000,0,820,1205
+bueno,5,propietario,36,66,casado,no,otros,35,178,15000,0,330,837
+bueno,4,propietario,60,35,casado,no,fijo,35,85,5500,900,1500,1810
+bueno,10,padres,48,31,casado,no,fijo,35,47,8000,0,1000,1389
+bueno,0,alquila,48,23,soltero,no,fijo,44,88,0,0,1000,1529
+malo,5,alquila,48,22,casado,no,fijo,51,156,0,0,1500,1564
+bueno,1,padres,60,21,soltero,no,tiempo parcial,35,45,0,0,400,904
+bueno,0,propietario,36,25,casado,no,fijo,45,121,3144,1751,225,375
+bueno,0,propietario,60,27,casado,no,fijo,35,295,6000,0,1950,2208
+bueno,16,propietario,60,40,casado,sí,fijo,75,120,5000,2000,400,1309
+malo,4,alquila,60,38,casado,no,fijo,79,188,3000,1500,1350,1624
+bueno,12,alquila,36,31,casado,sí,fijo,73,131,0,0,200,200
+bueno,31,propietario,48,45,casado,no,fijo,45,181,3500,270,900,1522
+bueno,6,padres,60,30,casado,no,fijo,60,72,0,0,200,1083
+bueno,5,propietario,36,39,casado,no,fijo,60,150,10000,0,1350,1758
+bueno,14,padres,48,31,soltero,sí,fijo,35,100,0,0,800,1084
+malo,0,propietario,60,59,casado,no,otros,35,131,12000,0,1150,1157
+malo,1,propietario,60,27,casado,sí,fijo,45,62,7000,4500,1650,2060
+bueno,1,propietario,48,22,soltero,sí,tiempo parcial,35,125,3000,0,600,1087
+bueno,5,padres,36,21,soltero,sí,fijo,35,62,0,0,250,375
+bueno,18,propietario,12,58,viudo,sí,fijo,75,158,6000,0,400,973
+bueno,3,propietario,36,41,casado,sí,fijo,45,270,25000,0,900,910
+malo,2,privado,60,38,casado,no,tiempo parcial,60,150,4000,0,1000,1270
+malo,6,propietario,36,32,casado,sí,freelance,60,149,8000,3000,950,950
+bueno,7,propietario,12,40,casado,no,fijo,60,225,6000,0,400,1721
+bueno,3,propietario,60,32,casado,no,fijo,35,138,3500,0,1600,2131
+bueno,11,propietario,24,41,casado,no,fijo,60,100,15000,0,700,1480
+bueno,10,alquila,36,31,casado,no,fijo,90,153,0,0,175,675
+bueno,17,alquila,12,46,casado,no,fijo,59,141,0,0,200,600
+bueno,1,propietario,48,46,casado,no,fijo,90,170,14000,0,1000,1125
+malo,1,padres,36,22,soltero,no,tiempo parcial,35,59,0,0,880,940
+malo,2,alquila,36,28,casado,no,tiempo parcial,42,67,0,0,150,898
+bueno,2,privado,48,31,casado,no,fijo,45,65,3500,900,300,925
+bueno,2,padres,36,34,casado,no,fijo,60,400,9800,0,900,1316
+bueno,20,propietario,24,54,casado,no,fijo,35,175,11500,0,500,1080
+bueno,18,propietario,60,44,casado,no,fijo,60,110,4000,500,1300,1725
+bueno,0,padres,60,30,casado,no,fijo,60,128,0,0,900,975
+bueno,8,privado,60,32,casado,no,fijo,35,95,2500,480,950,1350
+bueno,1,padres,24,21,soltero,no,tiempo parcial,45,114,2500,500,500,1154
+bueno,3,propietario,60,29,casado,no,fijo,45,130,3500,1690,1100,1127
+malo,2,alquila,60,42,casado,no,freelance,45,NA,0,0,950,962
+bueno,4,padres,36,39,casado,no,fijo,60,100,6000,0,800,1500
+bueno,5,propietario,36,45,viudo,no,otros,35,142,6000,0,800,850
+malo,18,alquila,48,53,separado,sí,freelance,51,164,0,0,1000,1295
+bueno,1,alquila,60,28,casado,no,fijo,60,150,0,0,1350,1419
+bueno,8,propietario,24,47,soltero,sí,fijo,35,320,50000,2000,300,2300
+malo,8,alquila,12,32,casado,no,freelance,45,NA,0,0,300,400
+bueno,12,propietario,36,47,casado,no,fijo,60,211,NA,0,1050,1521
+bueno,6,propietario,48,51,casado,no,freelance,35,105,4000,0,1350,1595
+bueno,4,propietario,48,42,casado,no,fijo,35,111,3500,0,1000,1683
+malo,7,alquila,60,38,separado,sí,fijo,42,70,0,0,921,921
+bueno,6,privado,48,35,casado,no,fijo,45,125,3500,1125,700,1226
+malo,7,propietario,60,38,casado,sí,freelance,60,40,6000,0,1500,1610
+malo,2,padres,36,19,soltero,no,tiempo parcial,35,45,0,0,600,790
+malo,2,propietario,60,54,viudo,sí,fijo,35,180,8000,0,1000,1130
+malo,2,alquila,18,25,soltero,no,tiempo parcial,44,85,0,0,320,425
+bueno,12,propietario,60,34,casado,no,fijo,35,187,6000,2000,500,1457
+bueno,1,alquila,60,21,casado,no,tiempo parcial,45,100,17000,0,1050,1251
+malo,25,alquila,36,55,casado,no,freelance,35,NA,3000,0,500,600
+malo,0,alquila,60,21,casado,no,freelance,35,NA,16000,0,1000,1000
+malo,5,propietario,36,43,casado,no,otros,75,192,15000,0,1500,2448
+malo,5,otra,60,53,casado,no,freelance,35,NA,0,0,2000,2365
+malo,1,privado,60,28,casado,no,tiempo parcial,60,174,6000,720,1650,1930
+malo,3,alquila,36,33,separado,sí,freelance,45,NA,0,0,375,870
+bueno,0,alquila,60,30,casado,no,fijo,70,100,2000,0,1150,1265
+malo,3,propietario,60,22,soltero,sí,freelance,35,178,9000,3000,1500,1528
+malo,4,alquila,36,23,casado,no,fijo,46,108,0,0,315,315
+bueno,45,otra,48,62,casado,no,fijo,45,100,0,0,450,935
+bueno,0,propietario,60,32,casado,no,freelance,60,NA,5500,700,1300,1375
+bueno,5,propietario,36,27,casado,no,freelance,45,NA,0,0,1000,1622
+bueno,0,propietario,60,39,casado,sí,fijo,45,150,23000,5000,1050,1625
+bueno,0,propietario,60,34,casado,sí,tiempo parcial,35,165,8000,2000,1450,1800
+bueno,12,propietario,60,35,casado,sí,fijo,35,108,18500,1300,1550,1584
+bueno,2,propietario,60,40,casado,no,freelance,75,67,25000,0,1800,2287
+malo,2,privado,60,37,casado,sí,fijo,60,120,3000,1380,1000,1582
+bueno,15,propietario,48,55,casado,no,freelance,45,88,15000,0,650,1243
+bueno,30,propietario,48,56,casado,sí,fijo,45,75,6000,0,1300,1423
+bueno,1,alquila,36,36,separado,no,fijo,65,200,0,0,900,1200
+bueno,42,propietario,60,60,casado,no,fijo,45,232,5000,0,1130,1275
+bueno,10,privado,48,28,soltero,no,fijo,35,129,3500,933,1000,1529
+bueno,1,propietario,18,40,casado,no,freelance,45,NA,5000,0,300,1272
+bueno,5,propietario,48,21,casado,no,fijo,45,100,3000,0,800,1310
+bueno,6,propietario,60,36,separado,no,freelance,45,85,5000,0,1000,1341
+bueno,6,alquila,60,40,casado,no,fijo,54,92,0,0,1000,1155
+bueno,15,padres,60,42,casado,no,freelance,60,NA,0,0,1100,1100
+bueno,6,alquila,36,45,casado,no,freelance,90,NA,0,0,600,1114
+bueno,4,alquila,48,32,casado,no,fijo,56,110,0,0,800,1626
+bueno,31,alquila,60,59,casado,no,fijo,53,80,0,0,1050,1182
+bueno,14,propietario,18,48,casado,no,fijo,35,143,4000,0,250,300
+bueno,6,propietario,12,66,viudo,no,otros,35,105,5000,0,550,1450
+bueno,15,otra,60,32,casado,no,fijo,45,88,0,0,500,1131
+bueno,6,privado,60,34,casado,no,fijo,45,124,1500,100,1100,1392
+bueno,10,propietario,60,38,casado,no,fijo,45,184,6000,1000,1125,1325
+bueno,11,propietario,60,34,casado,no,fijo,35,100,3500,0,950,1241
+bueno,10,propietario,6,35,casado,sí,freelance,75,50,6000,1500,500,983
+bueno,20,padres,60,42,soltero,no,fijo,35,80,0,0,800,1520
+bueno,10,propietario,36,43,casado,no,freelance,75,292,8000,0,1800,2240
+bueno,5,alquila,48,25,casado,no,fijo,55,100,0,0,549,549
+bueno,12,privado,36,51,casado,no,fijo,45,130,4000,0,1200,1400
+malo,2,otra,60,32,casado,no,tiempo parcial,45,150,0,0,1450,1850
+bueno,9,propietario,48,47,casado,no,freelance,35,183,45000,1700,3000,3690
+bueno,0,otra,60,21,soltero,no,tiempo parcial,35,NA,4000,0,1250,1300
+bueno,9,propietario,12,26,soltero,no,fijo,35,91,4000,0,1000,1776
+bueno,16,otra,30,44,casado,no,freelance,35,107,8000,0,1300,1634
+malo,2,padres,48,27,separado,no,tiempo parcial,35,125,0,0,870,1480
+bueno,0,propietario,48,66,casado,no,otros,35,45,5500,0,1250,1267
+bueno,2,otra,60,26,casado,no,freelance,35,30,0,0,900,1159
+bueno,3,propietario,36,49,casado,no,freelance,45,64,4000,0,400,773
+bueno,1,propietario,48,28,casado,no,fijo,45,116,4000,1857,1100,1173
+bueno,1,privado,60,32,casado,no,fijo,60,140,4000,1300,1200,1410
+bueno,0,otra,60,30,soltero,no,tiempo parcial,35,61,0,0,500,1081
+malo,2,alquila,60,43,casado,sí,tiempo parcial,84,86,0,0,1650,1782
+bueno,13,propietario,60,41,casado,no,fijo,75,89,2000,0,1000,1274
+bueno,14,propietario,48,32,casado,no,tiempo parcial,45,165,4000,112,1300,1346
+bueno,3,propietario,60,24,casado,no,freelance,60,67,9000,0,1300,2885
+bueno,14,propietario,48,53,casado,no,fijo,45,95,3000,0,1060,1060
+bueno,5,propietario,36,65,soltero,no,otros,35,121,10000,0,900,1191
+bueno,3,alquila,30,39,casado,no,fijo,58,128,0,0,600,1098
+bueno,15,propietario,60,38,casado,no,fijo,60,90,6000,480,1100,1289
+bueno,6,propietario,60,33,casado,sí,fijo,45,103,10000,0,1000,1658
+malo,2,alquila,60,32,casado,sí,freelance,60,NA,0,0,1100,1480
+bueno,15,propietario,60,29,soltero,no,fijo,35,130,5000,0,830,1000
+malo,10,propietario,60,47,separado,no,fijo,35,229,7000,0,2550,3500
+bueno,12,propietario,36,38,casado,no,fijo,35,143,5000,1100,700,2093
+malo,4,padres,36,26,soltero,sí,freelance,35,65,3500,0,1300,1475
+bueno,15,privado,60,33,soltero,no,fijo,35,163,5000,0,1000,2244
+bueno,14,padres,18,29,casado,no,fijo,45,162,0,0,600,2120
+bueno,2,propietario,60,30,casado,no,tiempo parcial,35,154,2500,500,1000,1725
+bueno,9,propietario,60,47,casado,no,fijo,60,55,9500,0,600,1164
+malo,0,padres,60,24,soltero,no,fijo,35,53,0,0,1200,1497
+bueno,48,propietario,36,62,casado,no,freelance,60,NA,25000,0,180,350
+bueno,14,padres,24,28,casado,no,fijo,45,192,0,0,1000,1736
+bueno,3,propietario,24,41,casado,no,freelance,60,NA,11000,0,800,1173
+bueno,14,propietario,36,36,casado,sí,fijo,75,115,11000,3600,1250,1550
+bueno,16,propietario,60,33,casado,no,fijo,45,90,6000,0,1500,1630
+malo,29,propietario,60,52,casado,no,tiempo parcial,45,175,2500,0,1186,1286
+bueno,3,propietario,60,36,casado,sí,freelance,35,60,2500,0,2300,2965
+bueno,6,propietario,48,28,casado,no,fijo,45,114,3500,0,650,1255
+bueno,47,propietario,48,61,casado,no,fijo,35,110,5500,30,1200,1200
+bueno,14,propietario,60,34,casado,no,fijo,45,130,4000,0,1100,1654
+malo,5,padres,48,23,soltero,no,tiempo parcial,35,92,0,0,1200,1200
+malo,1,propietario,36,41,soltero,sí,freelance,35,NA,15000,0,1500,2500
+bueno,6,otra,36,23,soltero,no,fijo,35,68,0,0,600,1271
+bueno,4,padres,60,24,casado,no,fijo,35,130,0,0,800,897
+bueno,1,propietario,12,61,casado,no,otros,45,103,20000,0,300,650
+bueno,8,privado,60,45,casado,no,freelance,75,200,35000,0,800,1270
+bueno,6,padres,60,30,separado,no,fijo,45,170,0,0,750,1674
+bueno,6,padres,60,26,soltero,sí,fijo,35,270,0,0,1800,1921
+bueno,15,propietario,60,34,casado,no,fijo,45,82,3500,0,750,1624
+bueno,17,alquila,24,50,casado,no,freelance,68,79,1000,0,1000,3782
+malo,6,alquila,60,45,casado,no,fijo,59,139,0,0,1350,1612
+bueno,18,propietario,60,51,casado,no,fijo,60,205,8000,0,1100,1350
+bueno,15,propietario,48,29,casado,sí,fijo,35,100,8500,1300,500,873
+bueno,0,propietario,24,20,soltero,no,tiempo parcial,45,188,2000,1500,300,315
+bueno,2,propietario,48,55,casado,no,otros,35,135,8000,0,800,800
+malo,6,alquila,48,37,soltero,no,fijo,55,200,0,0,1450,1650
+bueno,23,alquila,60,43,casado,no,fijo,54,92,NA,0,1080,1222
+bueno,3,propietario,24,32,casado,no,fijo,45,120,5000,0,800,1023
+bueno,18,propietario,60,42,casado,no,fijo,45,172,3500,0,1850,2034
+bueno,0,padres,60,21,soltero,no,freelance,35,44,0,0,1200,1311
+bueno,3,alquila,60,30,casado,no,fijo,77,169,0,0,1500,2037
+malo,0,privado,6,22,soltero,sí,tiempo parcial,35,115,1000,0,250,800
+bueno,15,propietario,24,41,casado,sí,tiempo parcial,45,180,6000,0,700,1888
+bueno,15,propietario,48,55,casado,no,freelance,35,NA,14500,0,2000,2848
+malo,12,alquila,60,30,soltero,sí,fijo,44,86,0,0,1300,1380
+bueno,15,alquila,48,45,casado,no,fijo,88,130,3000,0,1300,1591
+bueno,2,alquila,60,29,casado,no,fijo,80,200,0,0,1250,1250
+bueno,14,propietario,36,39,casado,no,fijo,60,167,5000,0,1350,1355
+bueno,4,propietario,36,26,casado,no,fijo,35,100,6500,3900,500,500
+bueno,1,privado,60,22,soltero,no,tiempo parcial,35,73,4500,4300,1000,1485
+malo,4,alquila,60,53,viudo,no,otros,37,22,20000,0,1300,1498
+bueno,2,propietario,36,37,casado,no,fijo,60,83,3500,0,310,1119
+malo,1,alquila,36,28,casado,sí,fijo,47,122,0,0,950,1100
+bueno,15,otra,36,39,separado,no,fijo,45,116,4000,0,600,1196
+bueno,4,propietario,60,25,soltero,no,freelance,35,100,25000,0,2250,2270
+malo,3,padres,60,27,soltero,sí,fijo,35,117,0,0,1500,2190
+bueno,6,propietario,60,35,casado,no,fijo,60,135,4500,1000,1658,1675
+bueno,16,padres,48,31,soltero,sí,fijo,35,72,0,0,850,1228
+bueno,5,propietario,60,41,casado,no,fijo,60,266,14800,0,2500,2600
+bueno,31,propietario,60,58,casado,no,fijo,60,293,8000,0,1500,1655
+bueno,38,propietario,24,56,casado,sí,fijo,75,98,7000,0,300,1308
+bueno,1,padres,60,26,soltero,no,fijo,35,57,0,0,1200,1512
+bueno,17,propietario,60,44,casado,no,fijo,45,116,3000,0,800,1654
+bueno,17,alquila,60,52,casado,no,fijo,65,200,0,0,1400,1407
+bueno,22,propietario,60,54,casado,no,fijo,35,104,3000,0,1050,1282
+malo,11,otra,60,48,casado,no,fijo,75,225,0,0,1300,1550
+bueno,5,propietario,18,28,casado,no,fijo,35,141,5500,0,650,1258
+malo,1,alquila,36,37,casado,no,tiempo parcial,75,145,0,0,1100,1871
+malo,1,padres,48,36,casado,no,tiempo parcial,60,45,0,0,1200,1401
+bueno,14,alquila,60,38,casado,no,fijo,75,146,0,0,1350,1413
+bueno,0,padres,60,34,casado,no,fijo,45,225,8000,2300,800,1850
+bueno,20,propietario,48,60,casado,no,freelance,35,142,12000,0,500,1154
+bueno,7,propietario,60,53,casado,no,fijo,45,161,6000,2000,1000,1460
+bueno,2,padres,12,26,soltero,no,fijo,35,105,0,0,360,1258
+bueno,5,propietario,60,49,casado,no,fijo,35,121,3000,0,1200,1642
+malo,4,alquila,60,37,soltero,sí,fijo,79,436,0,0,1500,1550
+bueno,0,propietario,24,30,casado,no,tiempo parcial,60,76,4500,0,400,450
+malo,0,padres,12,23,soltero,no,tiempo parcial,35,37,2500,0,120,300
+bueno,15,propietario,60,53,casado,no,freelance,45,148,6000,0,1000,1330
+bueno,2,padres,60,24,soltero,no,freelance,35,214,7000,2400,2000,2570
+bueno,1,propietario,48,35,casado,no,freelance,90,174,11900,0,900,1220
+bueno,0,propietario,60,49,casado,no,fijo,60,400,5000,0,1200,1283
+bueno,4,privado,60,37,casado,no,freelance,75,120,10500,1500,1200,1341
+malo,11,alquila,48,53,casado,sí,fijo,81,210,0,0,1260,1538
+malo,0,alquila,36,33,casado,sí,tiempo parcial,76,155,0,0,440,440
+bueno,2,padres,48,22,soltero,no,fijo,35,185,0,0,1000,2130
+bueno,3,alquila,36,23,soltero,no,fijo,59,244,3100,0,700,1199
+malo,7,alquila,60,39,casado,no,fijo,103,130,0,0,950,1215
+bueno,12,propietario,60,28,casado,no,fijo,45,167,3000,1750,250,1188
+bueno,15,alquila,36,36,casado,no,fijo,60,145,0,0,900,1621
+bueno,0,padres,60,21,soltero,no,otros,35,149,3000,0,1400,1829
+malo,0,propietario,60,33,separado,no,tiempo parcial,35,78,0,0,1030,1197
+bueno,8,alquila,60,56,casado,no,fijo,62,266,5000,0,1000,1149
+malo,2,padres,24,35,casado,no,fijo,45,175,0,0,1000,2393
+bueno,23,propietario,36,41,casado,no,fijo,60,169,37000,180,1000,1457
+bueno,28,propietario,36,46,casado,no,fijo,75,170,6000,0,750,800
+bueno,16,propietario,36,55,casado,no,fijo,35,140,6000,0,1100,2136
+bueno,7,propietario,60,44,casado,no,fijo,90,271,11000,5500,800,945
+bueno,2,padres,48,25,soltero,no,fijo,35,91,0,0,900,1763
+bueno,20,alquila,60,54,casado,no,fijo,43,75,0,0,800,1263
+malo,0,otra,30,21,soltero,no,tiempo parcial,35,162,0,0,400,400
+bueno,10,padres,48,28,soltero,no,fijo,35,135,6000,0,1500,2164
+bueno,5,padres,12,32,casado,no,freelance,35,147,0,0,300,750
+malo,2,propietario,36,30,soltero,no,freelance,35,177,6500,2300,1750,2750
+bueno,7,otra,24,30,soltero,no,fijo,35,102,0,0,400,1541
+bueno,1,padres,60,21,soltero,no,fijo,35,200,0,0,900,1088
+bueno,14,otra,60,30,casado,no,fijo,45,130,0,0,1500,2414
+malo,0,ignorar,60,26,casado,no,tiempo parcial,45,150,5000,0,1300,1429
+bueno,3,propietario,60,38,casado,no,fijo,75,125,9000,0,1250,1415
+bueno,15,propietario,60,32,casado,no,fijo,45,108,4500,0,1100,1213
+bueno,10,alquila,30,51,casado,no,fijo,60,150,0,0,1300,1378
+bueno,4,propietario,36,38,casado,no,freelance,35,142,4000,0,800,970
+bueno,0,alquila,60,30,casado,no,fijo,64,188,0,0,1400,1475
+bueno,0,padres,48,27,soltero,no,tiempo parcial,35,140,0,0,700,750
+bueno,2,propietario,36,60,casado,no,fijo,35,122,3000,0,825,900
+bueno,14,propietario,48,48,casado,no,fijo,45,112,6000,0,800,1037
+malo,2,padres,60,22,soltero,sí,fijo,35,110,0,0,1360,1435
+bueno,3,propietario,36,47,casado,no,freelance,60,106,10000,0,800,1649
+bueno,32,propietario,48,46,casado,no,fijo,45,150,8000,0,1000,1093
+malo,1,otra,48,27,soltero,sí,tiempo parcial,35,105,0,0,1300,1533
+bueno,14,propietario,48,41,casado,sí,fijo,75,72,4000,0,800,1117
+bueno,13,propietario,48,45,casado,no,fijo,45,106,4000,0,400,1615
+bueno,16,propietario,12,56,casado,no,freelance,45,65,17000,0,650,1665
+malo,7,privado,60,36,casado,sí,fijo,60,300,7000,0,2000,2485
+malo,14,alquila,60,41,casado,no,fijo,54,92,0,0,1450,1482
+bueno,14,privado,24,54,casado,no,fijo,45,100,9000,0,650,1150
+bueno,15,propietario,60,38,casado,no,fijo,45,118,4000,2600,1250,1616
+malo,11,alquila,60,38,casado,no,fijo,82,71,0,0,900,977
+bueno,4,propietario,48,35,casado,no,freelance,60,NA,8000,0,1000,1613
+bueno,2,padres,60,24,soltero,no,fijo,35,101,0,0,1600,1600
+bueno,3,propietario,60,30,casado,no,fijo,60,164,4500,0,800,975
+bueno,1,propietario,60,30,soltero,sí,freelance,35,57,4000,2100,1500,1950
+bueno,20,propietario,48,53,casado,no,freelance,35,NA,6000,0,1157,1200
+bueno,20,propietario,60,46,casado,no,fijo,35,140,9000,0,800,1300
+bueno,22,propietario,48,40,casado,no,fijo,45,180,NA,0,1200,2206
+bueno,3,padres,18,24,soltero,no,fijo,35,80,0,0,200,350
+malo,11,propietario,48,36,casado,sí,fijo,35,81,5000,2000,570,1177
+bueno,1,otra,24,24,soltero,no,fijo,35,114,0,0,400,550
+bueno,9,propietario,60,39,casado,no,fijo,35,350,8000,0,1250,1304
+malo,0,otra,60,32,soltero,no,fijo,35,73,NA,0,1580,1785
+bueno,10,propietario,60,37,casado,sí,freelance,60,107,20000,600,1000,1175
+bueno,22,propietario,60,42,casado,sí,fijo,45,120,5000,0,1350,1650
+bueno,5,alquila,48,48,casado,sí,fijo,46,110,0,0,600,1100
+malo,0,propietario,60,42,casado,sí,tiempo parcial,35,130,7000,3000,950,950
+malo,3,alquila,48,25,casado,sí,freelance,35,NA,0,0,1300,1361
+bueno,8,propietario,60,42,soltero,no,fijo,35,96,2500,0,1500,1520
+bueno,23,propietario,24,47,casado,no,fijo,35,114,3000,0,400,765
+bueno,6,alquila,36,24,casado,no,fijo,63,175,0,0,650,750
+malo,5,propietario,60,39,soltero,sí,freelance,75,72,NA,0,1000,1042
+bueno,6,padres,18,27,soltero,no,freelance,35,140,0,0,600,2724
+bueno,7,alquila,36,49,casado,no,fijo,57,115,0,0,675,675
+malo,1,otra,36,23,soltero,no,tiempo parcial,35,66,0,0,450,500
+bueno,5,propietario,60,32,casado,no,fijo,35,124,4000,0,2000,3400
+malo,26,privado,60,41,separado,sí,fijo,35,201,4700,3100,2400,2700
+malo,1,padres,60,20,soltero,no,tiempo parcial,35,80,0,0,1300,1525
+bueno,5,privado,60,31,casado,no,fijo,35,90,3000,0,900,1152
+bueno,22,propietario,48,48,casado,no,fijo,60,110,3000,0,1000,1460
+bueno,20,propietario,36,49,casado,no,fijo,45,122,9000,0,1100,1794
+bueno,7,propietario,60,35,casado,sí,fijo,45,315,10000,4000,2400,2432
+bueno,1,alquila,36,27,soltero,no,fijo,62,270,0,0,600,825
+bueno,7,padres,24,40,casado,no,fijo,60,200,10000,0,1000,3429
+malo,5,otra,24,25,casado,no,fijo,60,NA,0,0,500,750
+bueno,7,privado,60,32,casado,no,fijo,60,242,3500,2000,1000,2236
+bueno,16,propietario,48,48,casado,no,freelance,35,364,5000,0,900,1077
+bueno,5,propietario,24,38,casado,no,freelance,60,182,5000,0,1250,2724
+bueno,3,propietario,12,24,soltero,sí,fijo,35,105,6000,0,500,1138
+bueno,0,propietario,12,36,casado,no,freelance,45,NA,8000,0,1300,1591
+bueno,16,propietario,48,40,casado,no,fijo,60,225,20000,3000,700,834
+bueno,17,otra,48,62,soltero,no,fijo,35,100,0,0,900,1000
+malo,0,alquila,60,33,casado,no,tiempo parcial,54,85,0,0,1300,1797
+bueno,0,propietario,48,63,casado,no,otros,35,100,6000,2900,1000,1439
+bueno,8,propietario,60,51,casado,no,fijo,45,250,4000,0,1000,1250
+malo,3,alquila,60,22,casado,no,fijo,60,150,0,0,950,1945
+bueno,6,propietario,24,39,casado,no,freelance,60,178,18000,0,1000,2099
+bueno,20,propietario,60,63,casado,no,fijo,45,256,7000,0,1000,1500
+bueno,16,privado,48,34,casado,no,fijo,60,85,2000,0,800,1866
+bueno,0,propietario,60,24,soltero,no,otros,35,82,10000,0,1600,1680
+bueno,5,propietario,36,52,casado,no,fijo,35,220,12000,5000,1250,1542
+malo,1,propietario,36,45,casado,sí,freelance,75,NA,4000,0,800,800
+bueno,1,padres,36,20,soltero,no,fijo,35,61,0,0,800,995
+malo,5,alquila,60,31,casado,sí,fijo,69,88,0,0,1200,1200
+malo,15,otra,60,46,casado,sí,freelance,35,244,8000,0,2250,2758
+bueno,2,propietario,36,24,casado,sí,fijo,35,160,3100,400,800,1928
+bueno,1,alquila,36,46,casado,no,fijo,57,119,0,0,600,800
+malo,18,alquila,24,35,casado,no,tiempo parcial,96,63,0,0,600,888
+bueno,20,propietario,36,48,casado,no,fijo,45,257,3000,0,900,1193
+bueno,10,alquila,18,34,divorciado,no,fijo,54,189,0,0,800,2215
+malo,11,alquila,24,38,casado,sí,fijo,72,123,0,0,270,1676
+malo,0,padres,60,36,soltero,no,fijo,35,130,0,0,1600,1678
+malo,1,alquila,60,22,soltero,no,fijo,46,113,0,0,1600,1989
+bueno,36,propietario,60,55,casado,no,fijo,45,102,12000,0,2000,2684
+bueno,2,privado,24,51,casado,no,freelance,45,NA,10500,0,600,943
+bueno,11,alquila,18,28,casado,sí,freelance,64,190,2000,0,700,1224
+bueno,8,propietario,36,31,casado,no,fijo,45,110,5000,2000,540,1102
+bueno,2,propietario,36,28,casado,no,fijo,45,80,2000,0,550,1572
+bueno,4,alquila,36,38,casado,no,fijo,55,98,0,0,350,850
+bueno,3,propietario,24,43,casado,no,freelance,75,NA,3000,0,650,1548
+bueno,4,propietario,60,32,casado,no,fijo,60,147,3500,0,830,935
+bueno,3,propietario,60,38,soltero,no,fijo,35,250,5000,0,1500,1934
+malo,1,padres,48,18,soltero,no,tiempo parcial,45,95,4000,0,600,1472
+bueno,16,propietario,36,55,casado,sí,fijo,60,230,5000,0,1200,1460
+bueno,1,propietario,18,38,casado,no,otros,35,NA,4000,0,480,1059
+bueno,12,propietario,36,38,casado,no,fijo,60,130,5000,0,700,950
+bueno,18,propietario,60,48,casado,no,fijo,45,104,5500,25,800,1021
+bueno,3,privado,18,23,soltero,no,otros,35,NA,12000,0,450,1450
+bueno,10,propietario,48,50,casado,no,freelance,45,128,11500,0,500,1195
+bueno,14,propietario,60,43,casado,no,fijo,60,120,5000,0,1250,1557
+malo,2,padres,36,26,soltero,no,freelance,35,66,0,0,750,865
+bueno,7,propietario,36,23,casado,no,fijo,35,247,5000,400,1500,1785
+bueno,5,propietario,36,38,casado,no,freelance,60,63,4000,0,1050,1443
+malo,5,propietario,48,39,casado,sí,freelance,60,66,10000,0,875,875
+bueno,27,propietario,18,48,casado,no,freelance,35,70,5000,0,800,1578
+bueno,3,alquila,36,30,casado,sí,freelance,59,140,0,0,1300,2115
+bueno,2,privado,48,30,casado,sí,fijo,45,178,5000,0,1150,1627
+bueno,10,otra,60,48,casado,no,fijo,35,203,4000,1500,1520,1636
+bueno,16,propietario,6,41,casado,no,fijo,75,87,3000,0,200,625
+bueno,15,propietario,60,39,casado,no,freelance,60,555,40000,0,1500,4000
+malo,14,propietario,36,33,soltero,no,freelance,35,NA,4000,1500,700,1700
+bueno,4,padres,60,25,casado,no,freelance,35,95,25000,0,1650,1900
+bueno,3,padres,36,20,soltero,sí,fijo,35,55,0,0,600,1625
+bueno,2,padres,36,28,soltero,no,fijo,35,140,1000,0,1000,1693
+malo,25,privado,60,56,casado,sí,freelance,90,85,3500,0,800,975
+bueno,6,alquila,48,26,soltero,sí,fijo,65,198,0,0,950,1111
+bueno,1,privado,60,27,casado,no,freelance,35,130,4650,2850,2000,2240
+bueno,30,propietario,12,52,casado,no,freelance,45,80,7000,0,1100,2487
+bueno,10,padres,24,33,soltero,no,freelance,35,200,70000,12000,1100,1457
+bueno,4,propietario,48,24,casado,no,fijo,35,95,2500,0,900,1625
+bueno,12,propietario,36,46,casado,no,freelance,45,NA,8000,0,500,500
+bueno,30,propietario,54,54,viudo,no,freelance,35,224,20000,0,1100,1603
+bueno,20,propietario,60,44,casado,no,fijo,60,168,3000,0,1400,1599
+malo,1,alquila,60,28,casado,no,freelance,53,179,0,0,1825,2275
+malo,2,privado,24,20,soltero,no,freelance,35,107,54000,0,2000,2600
+bueno,4,propietario,60,23,casado,no,fijo,35,160,6500,3700,1500,1661
+bueno,4,alquila,36,60,casado,no,fijo,56,111,0,0,500,675
+malo,3,alquila,60,26,casado,no,fijo,53,80,0,0,950,989
+bueno,11,propietario,60,30,casado,sí,fijo,35,110,4000,62,1100,1347
+bueno,6,padres,60,26,casado,no,fijo,60,108,0,0,1200,1250
+bueno,14,alquila,60,41,casado,no,fijo,53,181,0,0,1150,2497
+malo,3,padres,48,38,casado,no,tiempo parcial,60,67,0,0,1000,1045
+malo,1,propietario,36,36,casado,no,fijo,45,25,3000,2000,1100,1332
+bueno,20,propietario,60,40,divorciado,no,freelance,60,150,5500,0,1400,1928
+bueno,20,alquila,60,45,casado,no,fijo,92,170,0,0,1000,2415
+malo,0,alquila,48,25,casado,no,fijo,60,150,0,0,1350,1450
+bueno,12,alquila,48,46,casado,sí,fijo,104,294,0,0,1350,1352
+bueno,9,privado,48,46,casado,no,fijo,45,100,37000,0,800,904
+bueno,0,padres,48,28,soltero,no,freelance,35,100,0,0,900,1400
+bueno,2,propietario,48,38,casado,sí,fijo,75,192,23000,3000,700,970
+bueno,3,padres,60,24,soltero,no,fijo,35,100,0,0,1500,2100
+malo,4,alquila,48,23,casado,no,freelance,52,171,0,0,1150,1450
+bueno,3,privado,60,24,soltero,no,fijo,35,245,5000,0,1300,1360
+malo,1,ignorar,60,28,casado,sí,freelance,45,NA,4000,0,1500,1661
+bueno,11,propietario,12,26,casado,sí,tiempo parcial,35,110,4500,2000,300,1248
+malo,1,alquila,36,26,soltero,no,tiempo parcial,42,70,0,0,590,590
+malo,0,alquila,48,23,soltero,no,tiempo parcial,42,72,0,0,700,875
+bueno,1,alquila,60,29,casado,no,fijo,73,133,0,0,1000,1158
+bueno,10,padres,36,34,casado,sí,freelance,45,NA,10000,0,600,882
+bueno,9,propietario,24,30,casado,no,fijo,35,250,30000,0,1000,1594
+bueno,2,propietario,60,28,casado,no,freelance,35,196,7000,3950,1600,1678
+bueno,3,padres,60,36,casado,sí,fijo,60,92,0,0,1100,1355
+bueno,10,propietario,60,45,casado,no,freelance,45,325,12000,1200,1300,1833
+malo,3,privado,36,38,divorciado,sí,fijo,35,NA,12500,0,3000,4800
+bueno,10,propietario,48,33,casado,no,fijo,45,110,5000,0,1000,1160
+malo,2,alquila,48,56,soltero,no,freelance,51,157,11000,4500,1000,2008
+bueno,4,otra,60,25,soltero,no,fijo,35,162,0,0,1800,2999
+malo,7,padres,60,33,soltero,no,tiempo parcial,35,70,0,0,1300,1438
+bueno,5,padres,48,27,casado,sí,freelance,45,175,0,0,1000,1342
+bueno,16,padres,24,44,soltero,no,freelance,35,86,0,0,700,950
+bueno,0,padres,24,26,soltero,no,tiempo parcial,35,69,0,0,107,125
+malo,7,propietario,60,28,casado,sí,fijo,60,148,8000,0,920,1021
+malo,2,otra,48,25,casado,no,fijo,35,129,0,0,1580,1925
+malo,3,alquila,60,44,separado,sí,fijo,60,150,0,0,1650,1772
+bueno,1,propietario,24,38,casado,no,fijo,60,102,3500,0,850,1260
+bueno,7,propietario,48,32,casado,sí,fijo,45,140,5500,0,550,1250
+malo,2,propietario,60,24,soltero,no,tiempo parcial,35,120,3000,0,1400,1513
+bueno,1,padres,60,42,casado,no,fijo,60,66,7000,0,950,1589
+bueno,27,alquila,24,50,casado,no,fijo,47,115,0,0,500,1636
+bueno,6,propietario,60,31,casado,no,fijo,35,84,3000,0,1400,1724
+bueno,3,propietario,60,26,casado,no,fijo,45,128,3000,0,1300,1790
+bueno,9,privado,60,32,casado,no,fijo,60,155,12000,5000,1200,1400
+malo,5,padres,24,26,soltero,no,fijo,35,140,0,0,450,900
+bueno,3,alquila,48,26,casado,no,fijo,58,230,0,0,1150,1316
+malo,20,otra,60,47,casado,sí,fijo,105,NA,0,0,750,843
+bueno,18,privado,60,49,casado,no,fijo,60,140,4000,0,1050,1097
+bueno,19,propietario,60,54,viudo,sí,fijo,35,207,11000,4000,800,1336
+bueno,5,alquila,36,40,separado,no,fijo,43,75,0,0,400,650
+bueno,8,propietario,60,33,casado,no,freelance,45,250,10000,0,2500,3250
+bueno,2,otra,36,35,separado,no,fijo,35,200,0,0,1600,1671
+malo,1,propietario,12,56,casado,no,otros,60,NA,3500,0,500,1705
+bueno,10,propietario,60,26,casado,no,fijo,45,135,5000,3700,1600,1767
+bueno,14,propietario,36,34,casado,no,fijo,60,143,5000,0,1400,1939
+bueno,13,padres,48,31,casado,no,fijo,35,90,0,0,1000,1395
+bueno,4,ignorar,60,62,casado,no,freelance,35,102,8000,0,1200,1405
+bueno,20,propietario,60,46,soltero,no,fijo,35,250,25000,4000,1450,1566
+bueno,15,propietario,60,49,casado,no,fijo,60,162,5000,0,1700,2081
+bueno,24,propietario,60,46,casado,no,fijo,60,140,6000,1000,1100,1653
+bueno,10,propietario,36,36,casado,no,fijo,35,235,12000,1700,1500,1985
+bueno,2,padres,36,24,soltero,no,fijo,35,60,0,0,450,750
+bueno,21,propietario,24,44,casado,no,fijo,60,124,4000,0,800,2400
+malo,1,alquila,60,24,casado,sí,tiempo parcial,42,70,0,0,1700,1761
+bueno,11,propietario,48,27,casado,no,fijo,35,140,4000,0,1500,1641
+bueno,12,propietario,60,27,casado,sí,fijo,35,100,3000,0,1300,1359
+bueno,5,alquila,36,51,casado,no,fijo,63,184,0,0,635,785
+malo,6,propietario,48,26,casado,sí,fijo,35,90,5000,0,1390,1594
+bueno,1,alquila,48,37,casado,sí,tiempo parcial,72,116,6000,0,1400,1661
+bueno,10,propietario,60,41,casado,no,otros,35,57,5000,0,1300,1863
+malo,0,propietario,60,27,casado,no,tiempo parcial,75,210,7000,4800,1250,1315
+malo,1,propietario,48,20,soltero,no,fijo,35,53,2000,1600,1100,1100
+bueno,0,padres,60,24,soltero,no,tiempo parcial,35,111,3000,1200,850,1412
+bueno,10,propietario,24,50,casado,no,freelance,60,200,NA,0,500,1131
+bueno,10,propietario,60,32,casado,no,fijo,60,160,4000,1800,1050,1303
+malo,2,propietario,60,30,casado,sí,freelance,45,NA,5000,700,1000,2200
+bueno,16,propietario,60,32,casado,no,fijo,60,159,4000,0,1500,1736
+malo,0,alquila,60,19,soltero,no,otros,35,NA,0,0,900,1158
+bueno,10,propietario,6,39,casado,no,freelance,75,67,8000,0,430,500
+malo,9,otra,60,30,casado,sí,fijo,60,109,0,0,1250,1560
+malo,7,otra,36,38,casado,sí,freelance,35,59,0,0,1000,2246
+bueno,3,padres,36,28,soltero,no,fijo,35,74,0,0,350,550
+bueno,6,propietario,48,51,casado,no,freelance,45,106,12000,0,1035,1410
+malo,0,padres,48,21,soltero,no,tiempo parcial,35,48,0,0,1850,1877
+malo,3,padres,60,23,soltero,no,fijo,35,62,0,0,1100,1300
+bueno,1,propietario,24,39,casado,no,otros,35,70,4000,0,525,1771
+malo,3,alquila,36,39,casado,no,fijo,90,150,0,0,300,700
+bueno,12,propietario,48,39,casado,no,freelance,60,95,6000,0,1300,1600
+malo,0,privado,36,31,casado,no,tiempo parcial,35,202,6000,0,1300,1663
+bueno,2,alquila,60,24,casado,no,fijo,55,100,4000,0,1750,1900
+malo,2,privado,48,37,casado,sí,tiempo parcial,75,115,2000,0,850,1194
+bueno,2,padres,60,24,soltero,no,fijo,35,164,0,0,900,1516
+bueno,0,padres,24,20,soltero,no,fijo,35,155,7000,0,1450,1688
+bueno,4,propietario,48,40,casado,sí,fijo,60,150,3500,200,800,800
+malo,21,propietario,60,63,casado,sí,fijo,60,165,3000,0,1250,1424
+malo,14,alquila,60,38,casado,no,fijo,71,108,0,0,1400,1693
+bueno,25,propietario,60,51,casado,no,fijo,35,93,3500,0,900,995
+malo,6,otra,60,30,casado,no,fijo,60,133,0,0,1300,1388
+bueno,3,propietario,36,37,casado,no,fijo,60,55,0,0,1500,2315
+bueno,13,propietario,36,39,casado,no,fijo,35,148,14000,0,300,850
+bueno,5,padres,24,31,soltero,no,fijo,35,130,0,0,200,1447
+bueno,16,otra,60,34,casado,no,fijo,60,120,6000,0,1350,1487
+bueno,3,padres,48,20,soltero,no,freelance,35,NA,7000,0,1000,1362
+bueno,5,otra,18,65,casado,sí,otros,35,99,0,0,375,675
+bueno,16,alquila,48,32,soltero,sí,fijo,47,120,0,0,800,1224
+bueno,2,alquila,48,29,soltero,no,fijo,60,250,0,0,1000,1179
+bueno,0,padres,60,31,casado,no,otros,75,37,0,0,1500,2084
+bueno,23,padres,60,37,soltero,no,freelance,35,NA,4500,0,1950,2336
+bueno,6,propietario,48,55,casado,no,freelance,45,74,16000,1500,2000,3753
+malo,0,padres,36,19,soltero,no,freelance,35,NA,0,0,400,495
+malo,1,otra,60,21,soltero,no,tiempo parcial,45,NA,0,0,1100,1480
+malo,3,padres,60,25,casado,no,fijo,35,70,0,0,1300,1332
+bueno,5,propietario,36,58,casado,sí,otros,45,79,7000,0,400,1234
+malo,0,alquila,48,20,soltero,sí,tiempo parcial,56,105,0,0,1100,1289
+bueno,9,privado,48,27,casado,no,fijo,45,102,5000,360,1300,1537
+bueno,0,propietario,48,29,casado,no,otros,60,50,11000,0,1000,1480
+bueno,8,propietario,12,39,casado,no,fijo,75,160,1500,0,360,865
+bueno,24,propietario,60,43,soltero,no,fijo,35,120,3500,0,1320,1680
+bueno,3,padres,60,23,soltero,no,fijo,35,107,0,0,800,1111
+bueno,13,propietario,60,27,casado,no,fijo,35,253,7000,0,1060,1750
+bueno,2,alquila,60,49,casado,no,fijo,51,155,0,0,1500,1550
+bueno,33,propietario,48,61,casado,no,fijo,35,130,8000,0,850,1050
+malo,0,propietario,36,31,casado,sí,tiempo parcial,45,120,3000,150,700,850
+bueno,0,alquila,60,46,separado,no,fijo,57,124,0,0,940,1149
+bueno,7,padres,60,25,soltero,no,fijo,35,75,0,0,1100,1340
+bueno,20,propietario,36,37,casado,sí,fijo,60,150,3500,0,450,950
+bueno,10,alquila,36,36,divorciado,no,freelance,45,100,0,0,1000,1700
+malo,17,propietario,36,60,casado,no,fijo,60,78,2500,0,650,800
+bueno,1,propietario,60,28,casado,no,fijo,45,60,4000,0,1500,2326
+bueno,10,propietario,60,32,casado,no,fijo,45,419,5500,2500,1300,1995
+bueno,4,alquila,60,25,casado,no,fijo,56,112,0,0,1250,1399
+malo,3,alquila,60,32,casado,no,fijo,50,147,0,0,1100,1226
+bueno,31,propietario,12,53,casado,sí,fijo,60,165,6000,0,594,1332
+bueno,3,alquila,24,32,casado,no,fijo,61,160,0,0,400,450
+bueno,8,alquila,60,46,casado,no,freelance,45,NA,0,0,1000,1359
+bueno,0,alquila,12,22,soltero,no,freelance,38,34,0,0,700,1665
+bueno,1,alquila,60,25,casado,no,tiempo parcial,42,73,0,0,1000,1050
+malo,12,propietario,60,37,casado,no,fijo,60,98,9000,200,800,1012
+bueno,2,alquila,36,44,casado,no,tiempo parcial,57,123,5000,0,900,975
+bueno,10,propietario,12,36,casado,no,freelance,45,NA,4000,0,900,1776
+bueno,1,propietario,60,40,casado,sí,fijo,45,100,8500,0,400,1570
+bueno,0,propietario,60,47,casado,no,freelance,45,56,6000,0,1345,1345
+bueno,3,propietario,60,32,casado,no,fijo,45,90,6000,0,1500,2502
+bueno,1,propietario,60,21,soltero,sí,fijo,35,294,53000,0,1300,1398
+bueno,10,propietario,36,50,casado,no,freelance,75,NA,7500,0,1000,1230
+bueno,19,padres,60,34,soltero,no,fijo,35,80,0,0,1000,1097
+bueno,0,padres,18,33,soltero,no,fijo,35,112,6000,0,450,1196
+bueno,3,alquila,60,29,casado,sí,fijo,55,100,0,0,930,1007
+bueno,4,propietario,36,42,soltero,no,fijo,35,115,12000,0,900,1299
+bueno,5,propietario,60,37,casado,no,freelance,60,67,3500,196,1300,1625
+bueno,2,propietario,60,24,casado,no,fijo,45,375,5000,0,2200,2433
+bueno,2,otra,60,39,soltero,no,fijo,35,113,0,0,1250,1499
+bueno,18,alquila,36,41,soltero,no,freelance,40,53,0,0,750,1077
+bueno,17,propietario,48,55,casado,sí,freelance,60,73,15000,0,1900,2205
+malo,5,propietario,48,26,soltero,no,fijo,35,NA,10000,5000,1500,2272
+bueno,19,propietario,60,34,casado,no,fijo,60,196,7000,1000,1690,1930
+bueno,1,alquila,48,24,casado,no,tiempo parcial,41,56,0,0,1500,1935
+bueno,16,propietario,48,31,casado,no,fijo,45,200,5000,800,1250,1646
+bueno,1,alquila,48,34,casado,no,fijo,55,102,0,0,600,1074
+bueno,15,propietario,60,43,casado,no,freelance,60,310,7000,0,1200,1297
+bueno,11,propietario,60,33,casado,no,fijo,60,106,6000,0,1500,1702
+malo,0,padres,36,22,soltero,no,tiempo parcial,35,103,4500,0,1050,1485
+bueno,0,padres,60,41,soltero,no,tiempo parcial,35,131,4500,0,1200,1538
+malo,0,privado,60,43,casado,no,tiempo parcial,45,117,2000,250,1600,1967
+malo,0,alquila,60,25,soltero,sí,tiempo parcial,47,120,0,0,1200,1460
+malo,0,alquila,36,18,soltero,sí,otros,38,33,0,0,300,350
+malo,0,padres,36,35,soltero,no,freelance,35,NA,0,0,875,950
+bueno,9,otra,60,31,casado,no,fijo,60,130,0,0,1500,1700
+bueno,14,propietario,60,40,casado,no,fijo,60,110,5000,0,1000,1646
+bueno,4,padres,36,20,soltero,no,fijo,35,60,0,0,550,587
+bueno,5,padres,36,28,casado,no,fijo,45,107,0,0,1160,1959
+malo,0,alquila,36,22,soltero,no,tiempo parcial,42,65,0,0,430,550
+bueno,4,padres,36,28,casado,no,fijo,35,173,0,0,1000,1300
+bueno,13,propietario,60,35,casado,no,fijo,60,134,4500,700,1000,1894
+bueno,8,propietario,60,41,casado,no,freelance,60,173,8000,0,1200,1570
+malo,1,padres,60,22,soltero,no,freelance,35,78,3500,0,2275,2300
+bueno,5,ignorar,48,51,divorciado,no,fijo,35,95,6000,0,500,645
+bueno,3,alquila,36,21,soltero,no,fijo,44,89,0,0,400,500
+malo,1,propietario,60,40,casado,sí,fijo,60,155,2500,0,1650,1650
+malo,3,propietario,36,45,casado,sí,fijo,60,87,3500,0,650,650
+bueno,0,padres,48,22,soltero,no,freelance,45,NA,0,0,4000,4500
+malo,1,padres,36,31,casado,no,fijo,35,61,4000,0,700,800
+bueno,3,privado,60,35,casado,no,fijo,75,185,3500,1200,700,845
+bueno,20,propietario,12,48,separado,no,freelance,75,300,18000,0,760,1369
+malo,3,propietario,36,40,casado,sí,freelance,60,NA,4500,0,575,775
+bueno,10,propietario,36,37,casado,sí,fijo,60,320,15000,1000,1000,2191
+bueno,1,propietario,36,20,soltero,no,tiempo parcial,35,139,4000,0,375,425
+bueno,8,alquila,48,36,casado,no,fijo,76,159,0,0,830,939
+bueno,6,otra,48,35,casado,no,fijo,60,79,15000,0,2000,2504
+bueno,0,otra,36,26,casado,no,fijo,45,260,0,0,725,775
+malo,0,alquila,60,60,casado,no,otros,55,100,8000,0,2500,2500
+bueno,12,propietario,60,54,casado,sí,fijo,75,231,15000,0,1950,2500
+bueno,6,alquila,60,31,soltero,no,fijo,43,82,0,0,800,946
+malo,3,padres,60,30,casado,sí,fijo,45,120,4000,0,1500,1621
+malo,0,padres,18,19,soltero,no,fijo,35,91,0,0,650,650
+bueno,12,alquila,36,30,casado,no,fijo,65,203,0,0,1500,2700
+bueno,13,padres,60,34,soltero,no,fijo,35,96,0,0,750,775
+malo,0,propietario,60,39,casado,sí,freelance,45,NA,10000,0,1500,1699
+bueno,4,privado,24,44,casado,no,freelance,60,NA,2900,0,1800,2750
+malo,8,otra,36,39,casado,no,fijo,35,NA,0,0,450,550
+bueno,8,propietario,24,36,casado,no,fijo,60,90,6000,1500,900,1715
+bueno,10,propietario,36,52,casado,no,freelance,35,225,25000,0,2000,2315
+bueno,5,propietario,60,36,casado,sí,fijo,35,205,9000,1500,1050,1168
+malo,5,padres,48,20,soltero,no,otros,45,NA,0,0,2500,3542
+malo,2,propietario,60,35,soltero,no,fijo,35,51,4000,0,1400,1628
+bueno,21,propietario,60,40,casado,sí,fijo,60,144,6500,0,2000,2230
+malo,3,padres,60,34,soltero,sí,tiempo parcial,35,80,0,0,1100,1265
+malo,0,alquila,60,38,casado,no,freelance,35,NA,0,0,1300,1636
+bueno,14,padres,60,32,casado,sí,fijo,35,140,0,0,1150,1273
+bueno,23,propietario,60,50,casado,no,fijo,45,90,3000,0,950,1101
+bueno,3,propietario,48,25,casado,no,freelance,35,107,4500,1900,1000,1250
+bueno,4,propietario,36,32,casado,no,fijo,45,190,13000,2000,800,2400
+bueno,8,propietario,60,34,casado,sí,fijo,45,145,5000,0,1100,1110
+bueno,11,alquila,12,29,soltero,no,fijo,44,93,0,0,700,1667
+bueno,2,alquila,60,40,casado,no,fijo,60,145,500,0,1550,1621
+bueno,3,padres,48,24,soltero,no,fijo,35,55,3000,0,850,875
+bueno,3,padres,48,28,casado,no,fijo,45,173,0,0,1000,2057
+bueno,6,alquila,60,34,casado,no,fijo,86,110,0,0,800,2263
+malo,0,alquila,60,38,casado,sí,tiempo parcial,75,NA,0,0,1000,1235
+bueno,20,propietario,60,39,casado,no,fijo,60,68,13000,0,900,975
+bueno,0,propietario,24,52,casado,no,otros,45,170,6500,0,500,600
+bueno,8,propietario,60,33,casado,no,fijo,45,160,2000,0,1050,2277
+malo,5,propietario,48,49,viudo,no,otros,35,48,4000,0,1100,1438
+bueno,17,propietario,48,46,casado,no,fijo,35,128,4000,0,1400,1718
+malo,2,alquila,48,44,separado,no,fijo,48,125,5000,800,1600,2500
+bueno,0,padres,60,22,soltero,no,tiempo parcial,35,72,0,0,1100,1131
+bueno,20,propietario,60,44,casado,no,fijo,60,115,4000,0,1250,1463
+bueno,5,alquila,60,42,separado,sí,freelance,89,288,15000,0,1800,2148
+bueno,16,propietario,36,40,casado,no,fijo,60,160,4000,0,1300,2305
+bueno,14,propietario,60,38,casado,no,fijo,60,114,5000,400,1200,2062
+bueno,1,alquila,6,38,casado,no,tiempo parcial,72,118,0,0,125,375
+bueno,1,padres,48,21,soltero,no,fijo,35,60,0,0,850,1195
+malo,1,alquila,24,24,soltero,no,tiempo parcial,49,139,0,0,500,550
+bueno,12,alquila,48,36,casado,no,fijo,80,195,0,0,1800,2272
+bueno,3,padres,48,29,separado,no,fijo,35,108,0,0,900,1263
+malo,2,alquila,18,46,casado,sí,fijo,74,140,0,0,200,380
+bueno,18,padres,60,42,divorciado,sí,fijo,35,145,0,0,1000,1025
+bueno,15,propietario,36,43,casado,sí,fijo,60,105,5000,0,400,1631
+malo,2,padres,60,20,soltero,no,fijo,35,56,3500,0,1300,1637
+bueno,14,propietario,60,28,casado,no,fijo,35,216,4000,0,1750,2270
+malo,0,padres,36,21,soltero,no,tiempo parcial,35,130,2000,0,875,1075
+bueno,3,propietario,60,27,casado,no,fijo,35,120,4000,1500,1800,2090
+bueno,1,propietario,60,27,casado,no,fijo,35,90,2000,0,1150,1470
+malo,6,alquila,60,38,casado,sí,fijo,55,103,0,0,1100,1303
+malo,0,propietario,36,42,casado,no,freelance,60,NA,5000,0,1350,1850
+bueno,3,propietario,60,33,casado,sí,fijo,45,193,10000,1500,1300,1730
+bueno,6,padres,18,25,casado,no,fijo,45,164,0,0,1250,1890
+bueno,18,alquila,60,37,casado,no,fijo,70,100,0,0,1300,1345
+bueno,30,propietario,12,56,casado,no,freelance,45,60,12000,0,1375,1700
+bueno,25,privado,12,55,soltero,no,freelance,35,92,25000,0,150,400
+bueno,1,propietario,60,22,soltero,no,fijo,35,300,4000,200,1350,1450
+bueno,18,alquila,48,53,casado,no,fijo,54,92,0,0,1340,1345
+bueno,5,propietario,36,53,casado,sí,otros,35,227,8500,0,1550,1985
+malo,5,alquila,48,31,casado,sí,fijo,60,150,0,0,800,1707
+bueno,14,propietario,60,40,casado,no,fijo,45,91,0,0,1100,1565
+malo,0,padres,60,33,casado,sí,freelance,60,NA,0,0,2000,2235
+bueno,10,privado,60,48,casado,no,fijo,35,161,9000,0,900,1100
+bueno,39,propietario,60,58,casado,no,fijo,35,113,3500,0,1380,1623
+bueno,0,privado,48,41,casado,no,fijo,75,146,10000,0,1370,1623
+bueno,1,padres,36,24,soltero,no,fijo,35,70,0,0,700,1067
+malo,5,alquila,60,37,casado,no,fijo,77,318,5000,0,1750,2953
+bueno,10,propietario,60,34,casado,no,fijo,45,115,9500,0,1450,1721
+malo,1,alquila,60,36,casado,sí,tiempo parcial,84,90,0,0,1100,1184
+bueno,3,privado,60,27,casado,no,fijo,35,215,5000,2800,1500,1682
+bueno,8,propietario,24,30,casado,sí,fijo,35,340,1200,0,1000,1893
+malo,1,alquila,60,31,divorciado,sí,tiempo parcial,39,42,0,0,1200,1265
+bueno,0,propietario,24,18,soltero,no,tiempo parcial,35,104,12000,0,1700,1726
+bueno,20,privado,60,59,casado,no,freelance,35,81,18000,0,1200,1349
+malo,8,alquila,48,30,soltero,no,fijo,46,114,0,0,1650,1659
+bueno,0,privado,60,42,casado,no,tiempo parcial,35,210,1500,0,1250,1518
+bueno,3,propietario,48,29,casado,no,fijo,35,83,4500,1170,700,837
+malo,3,alquila,48,39,casado,sí,fijo,97,223,0,0,1250,1609
+bueno,17,otra,48,40,casado,no,fijo,60,117,6000,960,1200,1893
+malo,14,propietario,60,47,viudo,sí,fijo,35,100,4000,2000,1475,1475
+malo,11,padres,60,30,casado,sí,fijo,45,105,5000,0,1500,2500
+malo,24,otra,60,41,casado,sí,freelance,75,NA,0,0,2200,2428
+bueno,2,padres,36,25,soltero,no,fijo,35,110,0,0,500,1200
+bueno,3,padres,60,23,soltero,no,freelance,35,42,10000,0,2000,2203
+bueno,14,propietario,60,35,casado,no,fijo,35,80,3500,0,1100,1622
+malo,20,propietario,60,43,casado,sí,fijo,45,120,10000,0,2000,2700
+bueno,5,alquila,24,41,casado,no,freelance,44,90,8000,0,600,1218
+bueno,15,propietario,60,50,casado,sí,fijo,35,112,4000,0,1150,1400
+bueno,3,propietario,36,26,casado,no,fijo,35,136,6000,4500,900,1421
+malo,7,propietario,36,38,casado,sí,fijo,45,85,3400,1500,450,550
+bueno,7,propietario,60,33,casado,no,freelance,60,144,4500,0,1100,1245
+bueno,9,propietario,60,42,casado,no,fijo,75,140,7000,0,1000,1423
+bueno,2,alquila,48,22,casado,no,fijo,53,183,0,0,1300,1300
+bueno,2,alquila,60,38,soltero,no,fijo,70,250,NA,0,1300,1365
+malo,1,privado,36,28,casado,no,freelance,45,NA,6000,0,1000,1150
+malo,0,alquila,60,24,casado,no,tiempo parcial,41,56,0,0,1308,1558
+bueno,2,privado,60,24,casado,no,fijo,35,170,5000,1500,1150,1200
+bueno,16,alquila,36,41,casado,no,fijo,52,71,0,0,900,950
+malo,3,alquila,60,39,casado,sí,fijo,69,94,0,0,1450,1546
+malo,1,alquila,60,34,casado,no,fijo,56,112,4000,1500,1400,1508
+bueno,12,alquila,36,55,casado,no,fijo,57,115,0,0,800,1250
+malo,0,propietario,60,64,viudo,no,otros,35,100,8000,0,1980,2038
+bueno,3,otra,48,32,soltero,sí,fijo,35,71,0,0,1000,1200
+bueno,14,alquila,36,47,casado,no,fijo,73,125,6500,0,600,825
+malo,0,padres,60,25,soltero,no,tiempo parcial,35,35,0,0,1150,1351
+bueno,9,propietario,60,25,casado,no,fijo,60,200,13500,5000,1900,2115
+malo,0,alquila,48,35,casado,no,tiempo parcial,106,160,0,0,930,930
+malo,0,alquila,48,24,casado,no,tiempo parcial,35,NA,0,0,600,1452
+malo,1,padres,60,43,casado,sí,fijo,90,179,0,0,1600,1896
+malo,2,padres,36,21,soltero,no,freelance,35,221,0,0,500,650
+bueno,4,propietario,48,22,casado,no,fijo,35,214,10000,3000,1250,1566
+bueno,20,propietario,60,56,casado,no,fijo,35,145,5000,0,1600,1763
+bueno,2,otra,48,25,soltero,no,fijo,35,142,0,0,1000,1440
+bueno,8,propietario,60,56,casado,no,freelance,45,200,30000,0,1400,1500
+bueno,13,propietario,60,36,casado,no,fijo,45,72,3500,45,1400,1625
+bueno,5,propietario,24,59,casado,no,fijo,35,105,18000,0,1800,1965
+bueno,13,propietario,60,58,casado,no,fijo,75,211,7500,2000,800,1214
+malo,0,propietario,60,40,casado,sí,tiempo parcial,90,90,8000,0,1000,1189
+bueno,25,propietario,12,49,casado,no,freelance,60,100,5500,0,1000,1998
+malo,5,alquila,54,27,casado,no,fijo,47,118,0,0,1500,1600
+malo,2,propietario,60,44,casado,no,fijo,60,88,2000,0,1450,1452
+bueno,5,propietario,24,26,casado,no,fijo,45,147,10000,300,450,1522
+malo,5,alquila,48,49,viudo,sí,freelance,45,NA,0,0,1000,2193
+bueno,18,propietario,60,45,soltero,sí,fijo,35,197,2000,0,1500,1578
+malo,1,privado,60,24,casado,no,tiempo parcial,35,127,3500,2000,1700,1825
+malo,0,alquila,60,25,casado,sí,fijo,69,235,0,0,1400,1650
+bueno,12,propietario,60,56,casado,no,freelance,35,126,17000,0,3000,3745
+bueno,5,propietario,36,43,casado,no,freelance,45,NA,4000,0,1800,2300
+bueno,2,otra,24,30,casado,sí,fijo,45,233,0,0,900,1189
+bueno,1,propietario,60,47,casado,no,fijo,75,78,4000,0,1500,1711
+bueno,2,propietario,48,30,soltero,no,fijo,35,106,4000,0,660,1060
+bueno,14,propietario,60,28,casado,no,fijo,45,178,4000,700,600,700
+malo,8,propietario,60,64,casado,no,freelance,60,111,NA,NA,1895,2596
+malo,2,propietario,60,29,casado,sí,tiempo parcial,35,71,6000,0,700,2700
+malo,0,padres,60,26,separado,no,otros,35,NA,0,0,950,1735
+bueno,1,padres,48,24,soltero,no,fijo,35,53,0,0,1200,1215
+bueno,18,propietario,36,43,casado,no,fijo,90,116,4000,0,400,985
+bueno,30,propietario,12,52,soltero,no,fijo,35,237,5000,500,800,1800
+bueno,3,alquila,48,34,casado,no,fijo,77,165,5000,0,1287,1693
+bueno,3,padres,24,25,soltero,sí,fijo,35,128,0,0,300,1397
+bueno,25,propietario,18,40,casado,no,freelance,75,NA,5000,1600,375,375
+bueno,1,propietario,60,61,soltero,no,otros,35,216,8000,0,1200,1236
+bueno,16,propietario,60,51,casado,no,fijo,60,155,4000,0,900,925
+bueno,10,propietario,60,37,soltero,sí,otros,35,NA,78000,0,1250,1418
+bueno,0,padres,24,41,casado,no,fijo,60,105,3500,0,450,600
+malo,0,padres,60,27,casado,no,tiempo parcial,45,82,0,0,1400,1520
+bueno,8,propietario,36,52,casado,no,fijo,60,695,18000,0,750,2095
+bueno,13,propietario,60,31,casado,no,fijo,45,180,7500,1400,1200,1491
+bueno,6,propietario,60,28,casado,no,freelance,60,125,0,0,800,1700
+malo,13,alquila,36,44,casado,sí,freelance,84,85,0,0,1150,1325
+bueno,13,propietario,24,41,casado,no,fijo,60,167,6000,1122,400,850
+malo,0,padres,60,18,soltero,no,tiempo parcial,35,45,0,0,900,1001
+bueno,3,propietario,60,43,casado,no,freelance,45,174,9000,1692,1900,2374
+malo,2,propietario,60,25,soltero,no,tiempo parcial,35,95,4500,3000,1080,1296
+bueno,20,propietario,6,48,casado,sí,freelance,35,NA,14000,0,500,1351
+bueno,25,propietario,60,50,casado,sí,freelance,75,314,10000,0,1350,1417
+bueno,1,alquila,60,21,soltero,no,fijo,46,110,0,0,1450,1517
+bueno,19,propietario,60,35,casado,no,fijo,45,163,8000,340,1100,1269
+bueno,3,propietario,30,37,casado,no,fijo,75,80,4000,0,650,1270
+bueno,16,propietario,60,30,casado,no,fijo,35,110,5000,200,1000,1000
+bueno,0,propietario,60,25,casado,no,tiempo parcial,35,90,1500,500,900,990
+bueno,1,propietario,60,55,casado,no,otros,35,83,13000,0,900,925
+bueno,11,propietario,60,27,casado,no,fijo,45,190,3000,0,1200,1537
+malo,6,padres,60,26,soltero,no,fijo,35,92,0,0,600,1300
+malo,2,propietario,48,50,casado,no,tiempo parcial,35,80,4000,0,800,1330
+bueno,16,padres,36,45,soltero,no,fijo,35,76,0,0,500,1210
+bueno,4,alquila,60,26,casado,no,fijo,54,187,0,0,1500,1520
+malo,2,privado,60,53,casado,no,tiempo parcial,75,170,3000,180,1900,2180
+bueno,31,propietario,24,58,casado,no,fijo,35,160,3000,0,700,700
+bueno,0,propietario,18,44,casado,no,freelance,60,109,NA,0,350,550
+malo,2,privado,60,28,casado,no,fijo,35,165,3000,0,500,1650
+malo,16,alquila,24,40,casado,no,freelance,65,50,10000,5000,1400,1636
+malo,25,alquila,36,50,casado,sí,freelance,64,36,0,0,625,650
+bueno,1,padres,36,21,soltero,no,tiempo parcial,35,92,2000,0,700,1162
+malo,7,otra,60,35,casado,sí,fijo,45,120,0,0,1400,1715
+bueno,7,otra,48,34,casado,no,freelance,45,37,0,0,800,941
+bueno,40,otra,60,61,casado,sí,fijo,60,242,0,0,1000,1100
+bueno,4,propietario,60,55,viudo,no,otros,35,NA,NA,0,1200,1318
+bueno,10,propietario,48,36,casado,sí,freelance,75,214,10000,0,1143,1143
+malo,16,alquila,48,37,casado,sí,fijo,68,234,0,0,1000,1606
+bueno,2,propietario,36,34,casado,no,fijo,60,125,59000,900,1500,3000
+bueno,14,otra,48,36,casado,no,fijo,35,251,0,0,1000,1550
+bueno,3,propietario,18,40,casado,no,fijo,45,140,4000,0,400,1772
+bueno,13,propietario,24,47,casado,sí,fijo,75,300,12000,0,1000,1340
+bueno,18,propietario,24,61,casado,no,freelance,45,119,8000,0,1100,1340
+bueno,19,propietario,48,37,casado,no,fijo,60,158,7000,3000,1000,1156
+bueno,15,propietario,60,50,casado,no,fijo,35,91,3000,0,1150,1200
+bueno,1,padres,60,22,casado,no,tiempo parcial,35,195,120000,0,1550,1550
+bueno,2,propietario,60,29,casado,sí,fijo,35,160,3000,0,900,1310
+malo,2,propietario,60,26,soltero,sí,fijo,35,110,7000,0,535,1710
+bueno,30,propietario,60,53,casado,no,freelance,35,201,25000,0,1360,1450
+bueno,20,propietario,24,51,casado,no,fijo,75,130,10000,0,500,1238
+bueno,7,propietario,48,29,casado,no,fijo,35,68,3500,0,500,1700
+bueno,23,otra,36,56,separado,no,freelance,35,157,0,0,1800,2320
+bueno,2,padres,48,25,soltero,sí,fijo,35,233,0,0,1000,1090
+malo,5,padres,24,26,soltero,sí,fijo,35,104,0,0,1000,1314
+bueno,18,propietario,60,34,casado,no,fijo,35,168,12000,0,800,1103
+bueno,3,padres,48,48,casado,no,fijo,35,120,0,0,1300,1470
+bueno,1,propietario,60,22,casado,sí,fijo,45,230,2000,288,800,1588
+malo,1,propietario,60,55,casado,sí,otros,45,136,30000,0,1400,1424
+bueno,28,propietario,60,52,casado,no,fijo,35,185,4000,1000,900,1428
+bueno,7,propietario,60,47,casado,no,fijo,75,155,3000,200,675,975
+bueno,9,alquila,60,25,casado,no,fijo,50,145,0,0,1100,1250
+bueno,1,alquila,60,28,casado,no,fijo,62,169,0,0,1200,2068
+malo,0,alquila,48,52,soltero,sí,fijo,49,135,0,0,1000,1200
+bueno,8,privado,60,49,casado,no,fijo,45,120,3000,0,900,985
+bueno,10,propietario,30,37,casado,no,fijo,60,200,7000,0,750,1923
+malo,7,padres,36,31,separado,no,fijo,35,197,0,0,1200,1200
+bueno,5,propietario,48,48,casado,no,fijo,60,130,5000,0,650,795
+bueno,7,propietario,36,25,soltero,no,fijo,35,55,9000,0,1000,1215
+bueno,2,padres,48,29,soltero,no,fijo,35,111,0,0,1000,1854
+malo,3,privado,48,28,casado,no,fijo,60,136,3500,2500,1000,1200
+bueno,45,propietario,30,64,casado,no,freelance,45,157,20000,0,1000,1588
+malo,10,propietario,60,49,viudo,no,fijo,35,160,3000,0,1650,1659
+bueno,0,padres,36,22,soltero,no,tiempo parcial,35,81,2500,0,400,775
+bueno,16,propietario,60,31,casado,no,fijo,60,160,12000,0,1850,1862
+bueno,10,propietario,24,52,casado,no,fijo,60,81,5000,0,250,1003
+bueno,17,propietario,24,51,casado,no,freelance,35,NA,5000,0,800,1630
+bueno,25,propietario,60,50,casado,no,fijo,75,85,8000,0,1500,2075
+bueno,15,propietario,48,40,soltero,no,fijo,35,95,7000,4000,800,1086
+bueno,27,propietario,12,45,casado,no,fijo,60,142,5000,0,400,985
+bueno,6,propietario,60,63,viudo,no,otros,35,54,13000,0,1000,1063
+bueno,1,otra,24,20,soltero,no,tiempo parcial,45,48,3000,0,700,980
+malo,14,propietario,36,37,casado,sí,fijo,75,120,13000,3500,1250,1350
+bueno,6,propietario,48,53,casado,no,freelance,60,178,15000,0,800,1371
+malo,8,otra,60,28,divorciado,sí,fijo,35,102,0,0,1100,1421
+malo,5,propietario,36,59,casado,no,freelance,35,NA,NA,0,700,1100
+bueno,8,padres,48,24,soltero,no,fijo,35,96,0,0,1000,1540
+bueno,2,padres,60,26,soltero,no,freelance,35,8,0,0,900,984
+malo,33,alquila,60,53,casado,no,fijo,46,106,0,0,850,1371
+bueno,13,propietario,36,40,casado,no,fijo,45,193,3000,0,700,1000
+malo,2,propietario,36,22,soltero,no,freelance,35,NA,11000,0,375,450
+bueno,5,padres,60,23,soltero,no,fijo,35,120,0,0,1300,2100
+malo,11,propietario,60,42,casado,no,fijo,60,80,3600,0,1200,1322
+bueno,8,propietario,60,31,casado,no,fijo,35,98,5000,1000,1400,1720
+bueno,0,padres,60,24,soltero,sí,fijo,35,241,0,0,1100,1600
+bueno,2,padres,60,48,casado,sí,fijo,45,106,1500,0,1000,1253
+bueno,8,propietario,24,25,casado,no,fijo,35,160,3000,0,800,1092
+bueno,3,alquila,48,28,soltero,no,fijo,51,160,0,0,550,1440
+malo,6,alquila,60,47,casado,sí,freelance,45,NA,3000,0,1000,1000
+bueno,14,propietario,36,40,casado,no,fijo,45,80,3000,0,900,1263
+bueno,30,propietario,48,66,casado,no,freelance,35,178,7000,0,1000,1108
+malo,0,alquila,36,55,casado,sí,fijo,94,193,0,0,600,1100
+malo,2,padres,60,22,soltero,no,fijo,35,60,0,0,1175,1175
+malo,1,alquila,48,29,viudo,no,otros,43,80,0,0,1250,1500
+bueno,13,otra,60,37,casado,no,fijo,60,103,NA,0,1300,1966
+bueno,20,propietario,60,51,casado,no,fijo,45,107,2000,0,1000,1536
+bueno,4,alquila,36,60,separado,no,fijo,46,111,0,0,500,750
+bueno,1,propietario,60,60,casado,no,otros,45,200,7000,0,1000,1179
+bueno,8,propietario,48,34,casado,no,freelance,45,NA,8000,3600,600,1699
+malo,0,propietario,60,58,soltero,no,otros,35,19,NA,0,700,1332
+malo,0,otra,48,32,soltero,no,tiempo parcial,35,182,0,0,800,907
+bueno,25,propietario,36,46,casado,no,fijo,90,145,12000,0,1100,2400
+malo,4,alquila,60,23,soltero,sí,fijo,45,97,0,0,1250,1635
+bueno,8,otra,30,40,casado,no,fijo,45,148,0,0,850,1370
+bueno,21,propietario,36,44,casado,no,fijo,75,170,4000,0,1200,1650
+malo,10,propietario,48,50,separado,no,freelance,35,NA,80000,0,1800,2038
+malo,1,alquila,36,47,casado,sí,freelance,105,NA,0,0,500,500
+bueno,5,alquila,36,33,casado,no,tiempo parcial,52,73,0,0,400,750
+malo,2,otra,60,45,casado,sí,tiempo parcial,60,90,0,0,1000,1457
+bueno,12,propietario,60,39,soltero,sí,fijo,35,125,4000,0,1000,1516
+bueno,2,padres,60,22,soltero,no,freelance,35,115,0,0,1250,1263
+bueno,8,propietario,60,29,casado,no,fijo,45,192,6000,2500,1300,1595
+bueno,3,propietario,60,32,soltero,no,fijo,35,84,5000,3000,600,999
+bueno,2,padres,60,25,casado,no,freelance,35,150,2000,0,1000,1302
+bueno,2,alquila,36,31,casado,no,freelance,46,111,0,0,1000,1800
+malo,0,alquila,48,25,casado,sí,tiempo parcial,49,139,0,0,1450,1701
+bueno,7,alquila,60,33,casado,no,fijo,84,240,0,0,1000,1928
+malo,2,padres,36,21,soltero,no,fijo,35,50,0,0,500,900
+malo,0,padres,48,26,casado,no,tiempo parcial,45,76,0,0,700,2300
+bueno,1,propietario,48,48,casado,no,freelance,45,188,14000,0,900,1082
+bueno,30,alquila,36,53,casado,no,tiempo parcial,70,95,0,0,800,800
+bueno,3,propietario,48,63,casado,no,otros,35,145,4000,0,350,969
+bueno,3,alquila,60,36,casado,no,tiempo parcial,42,72,0,0,850,1263
+bueno,0,padres,36,20,soltero,no,tiempo parcial,35,120,0,0,1100,1100
+bueno,4,padres,48,23,soltero,no,fijo,35,85,0,0,1200,1350
+bueno,10,privado,36,47,casado,sí,fijo,45,60,5000,0,250,1343
+bueno,8,propietario,12,32,casado,sí,fijo,45,211,4500,0,800,2014
+malo,0,propietario,48,54,viudo,no,tiempo parcial,35,67,5000,0,760,860
+bueno,3,propietario,60,28,casado,no,tiempo parcial,35,143,5500,3000,1150,1292
+malo,1,alquila,48,30,soltero,no,freelance,35,NA,0,0,1300,1500
+malo,15,propietario,24,47,casado,sí,freelance,45,NA,5000,0,250,500
+bueno,1,propietario,60,42,casado,no,fijo,60,76,5000,0,1000,1299
+bueno,8,propietario,60,30,casado,no,fijo,60,106,7000,4000,700,999
+bueno,20,propietario,36,51,casado,no,fijo,45,90,3500,0,675,775
+malo,11,privado,60,39,casado,no,fijo,60,120,3000,1000,1450,1499
+malo,2,padres,60,35,casado,no,tiempo parcial,45,85,0,0,1000,1542
+malo,1,padres,60,22,casado,sí,tiempo parcial,45,183,0,0,1600,1739
+malo,7,propietario,60,25,casado,no,fijo,35,75,3000,0,1350,1674
+bueno,0,propietario,60,50,soltero,no,fijo,35,120,0,0,1400,1430
+bueno,22,propietario,48,39,soltero,no,fijo,35,83,2500,0,650,1265
+bueno,1,propietario,48,41,casado,no,freelance,60,102,4000,0,1000,1090
+malo,1,alquila,36,37,casado,sí,fijo,97,71,0,0,1300,1700
+bueno,1,padres,60,45,casado,sí,fijo,60,92,6000,0,1220,1466
+bueno,18,alquila,60,53,casado,no,fijo,71,107,4000,0,1300,1450
+bueno,5,alquila,36,52,casado,sí,freelance,35,NA,0,0,850,950
+bueno,8,padres,12,27,soltero,no,freelance,35,150,3000,0,275,550
+bueno,0,alquila,60,21,soltero,no,fijo,47,120,0,0,1400,1550
+malo,7,privado,48,30,casado,no,tiempo parcial,60,112,1500,0,900,1165
+bueno,3,propietario,36,42,casado,no,fijo,60,60,6000,0,1200,1500
+bueno,0,alquila,36,34,soltero,no,tiempo parcial,43,78,0,0,1200,1550
+bueno,6,propietario,36,36,casado,no,fijo,60,73,3500,0,475,675
+bueno,7,alquila,60,34,casado,no,fijo,48,130,0,0,1150,1549
+bueno,14,propietario,18,29,casado,no,fijo,35,165,6000,2500,600,1370
+bueno,4,propietario,60,39,casado,no,freelance,45,NA,7500,0,1300,1508
+malo,1,padres,60,33,casado,sí,freelance,45,NA,0,0,1000,1471
+malo,0,alquila,60,33,casado,no,tiempo parcial,77,166,0,0,850,984
+bueno,21,padres,60,39,casado,sí,fijo,60,210,5000,0,1500,1787
+bueno,12,propietario,60,40,casado,sí,fijo,45,110,11500,1750,800,1594
+malo,0,propietario,60,38,casado,no,fijo,45,87,10000,4500,900,1000
+bueno,10,propietario,60,40,casado,no,fijo,60,194,7000,0,1600,2171
+malo,10,propietario,36,37,separado,sí,fijo,60,150,30000,3000,1000,1400
+bueno,45,propietario,12,60,casado,no,freelance,35,52,19000,0,550,1240
+malo,0,propietario,60,32,casado,sí,fijo,35,75,4500,1000,900,1084
+malo,0,propietario,60,37,casado,no,freelance,90,NA,8000,4000,1550,1557
+malo,2,propietario,60,32,casado,no,fijo,60,182,3000,350,1300,1662
+bueno,22,padres,24,51,casado,no,fijo,45,201,0,0,800,1385
+bueno,0,propietario,60,30,casado,no,fijo,45,180,5000,0,1600,1924
+malo,0,padres,36,24,soltero,no,tiempo parcial,35,100,0,0,1000,2000
+bueno,30,alquila,60,55,casado,no,fijo,57,115,10000,0,900,1000
+bueno,13,privado,42,46,casado,no,fijo,60,75,3000,600,1200,1569
+malo,3,propietario,60,28,casado,no,fijo,45,210,5000,2700,1100,1516
+bueno,2,padres,24,24,soltero,no,fijo,35,110,0,0,1000,1589
+bueno,5,propietario,30,53,soltero,no,freelance,35,700,23000,0,1500,2150
+malo,8,alquila,60,30,casado,no,fijo,85,103,0,0,1090,1090
+malo,2,padres,48,20,soltero,no,fijo,105,130,2500,0,1750,1998
+malo,15,propietario,60,53,separado,no,fijo,35,95,16500,0,1600,1955
+malo,15,propietario,60,37,casado,no,fijo,75,200,9000,2500,1400,1699
+bueno,9,propietario,36,31,casado,no,fijo,35,161,14000,0,1200,1705
+malo,0,padres,48,26,soltero,sí,freelance,35,101,0,0,1500,1703
+bueno,2,propietario,48,41,casado,no,fijo,75,120,7500,4750,900,1411
+bueno,14,alquila,48,32,casado,no,fijo,72,115,0,0,350,410
+bueno,15,propietario,60,35,soltero,sí,fijo,35,150,5000,2800,1300,1332
+bueno,0,padres,36,37,casado,sí,fijo,45,230,7000,0,2800,4200
+bueno,13,propietario,48,27,casado,no,fijo,45,118,10000,7200,1100,1397
+malo,1,privado,60,41,casado,sí,tiempo parcial,45,93,3000,0,1900,2230
+bueno,9,propietario,48,49,casado,no,fijo,60,149,12000,0,700,1975
+bueno,16,propietario,60,30,casado,no,fijo,35,95,2000,0,1300,1700
+malo,1,propietario,24,34,casado,sí,freelance,60,250,3000,0,1100,1281
+malo,3,alquila,60,30,casado,no,freelance,45,NA,0,0,1150,1395
+bueno,12,propietario,36,50,casado,no,fijo,75,190,5000,0,1070,1500
+bueno,0,padres,48,23,soltero,no,fijo,35,56,0,0,325,1202
+malo,0,padres,48,21,soltero,no,tiempo parcial,35,70,0,0,1200,1600
+bueno,6,alquila,36,36,casado,sí,fijo,56,208,0,0,600,1432
+bueno,22,alquila,60,48,casado,no,fijo,66,210,0,0,1200,1233
+malo,10,otra,36,45,casado,sí,fijo,45,102,0,0,535,585
+malo,10,alquila,36,35,soltero,no,freelance,40,50,NA,NA,500,1050
+bueno,10,propietario,12,56,viudo,no,otros,35,214,53500,0,1150,1300
+bueno,3,padres,60,27,casado,no,fijo,45,140,5000,0,1400,1721
+malo,6,otra,36,35,casado,no,freelance,35,23,3000,0,250,350
+bueno,14,propietario,60,31,casado,no,fijo,60,110,5500,2500,1000,1314
+malo,1,alquila,60,26,casado,no,tiempo parcial,48,127,0,0,1250,1655
+bueno,1,padres,24,21,soltero,no,fijo,35,60,0,0,250,450
+malo,3,padres,60,29,soltero,no,freelance,35,NA,0,0,1500,2500
+bueno,26,propietario,36,46,casado,no,fijo,45,184,5000,0,1000,1535
+bueno,2,propietario,60,60,casado,no,fijo,35,87,2500,0,1000,1150
+bueno,32,alquila,60,47,separado,sí,fijo,47,120,3000,0,1400,1995
+bueno,7,propietario,60,60,casado,no,fijo,45,145,5000,0,1350,1363
+malo,11,propietario,60,58,casado,no,fijo,35,81,11000,0,1400,1550
+bueno,15,otra,60,50,casado,no,fijo,35,92,6000,0,900,982
+bueno,2,alquila,36,27,soltero,no,fijo,70,97,0,0,500,985
+bueno,22,propietario,36,48,casado,no,fijo,45,150,5000,0,650,750
+bueno,2,alquila,36,27,casado,no,fijo,45,102,0,0,600,650
+malo,23,propietario,60,57,casado,no,fijo,35,99,2500,0,900,1077
+malo,1,alquila,36,24,casado,no,tiempo parcial,41,56,0,0,500,585
+bueno,33,otra,36,56,casado,no,fijo,35,80,3500,0,800,981
+malo,3,padres,60,20,soltero,no,fijo,35,94,0,0,1300,1365
+bueno,0,padres,60,23,soltero,no,tiempo parcial,35,205,0,0,1100,1258
+bueno,26,alquila,60,40,casado,no,fijo,47,118,0,0,1260,1450
+malo,12,otra,60,34,casado,no,fijo,60,113,1500,0,1050,1087
+malo,14,privado,36,45,separado,sí,fijo,35,120,2500,0,1150,1350
+bueno,8,propietario,60,41,casado,no,fijo,60,70,5000,0,900,1300
+malo,2,otra,48,29,soltero,no,fijo,35,105,0,0,1600,2074
+malo,2,otra,60,26,soltero,sí,tiempo parcial,35,55,0,0,1500,1543
+bueno,3,alquila,60,31,casado,no,freelance,70,102,0,0,1100,1305
+bueno,6,padres,36,23,soltero,no,fijo,35,79,6000,0,550,652
+bueno,2,privado,60,30,casado,no,fijo,60,152,3500,750,800,865
+bueno,9,alquila,60,32,casado,no,fijo,71,105,0,0,700,1800
+malo,25,otra,48,50,separado,sí,fijo,35,89,0,0,800,2300
+malo,5,privado,60,37,casado,no,tiempo parcial,60,95,2000,0,1065,1165
+bueno,2,alquila,60,29,casado,sí,fijo,69,91,0,0,1000,1268
+bueno,20,propietario,60,56,casado,no,fijo,35,96,5000,0,950,1092
+bueno,2,alquila,36,19,soltero,no,fijo,48,128,0,0,1400,1650
+malo,1,alquila,60,28,soltero,sí,fijo,47,120,0,0,1400,1690
+malo,2,padres,30,28,soltero,no,tiempo parcial,35,70,0,0,550,875
+bueno,18,privado,60,42,casado,no,fijo,90,162,2500,400,1550,1615
+bueno,30,ignorar,60,55,casado,no,freelance,45,81,19000,0,900,1560
+bueno,36,propietario,60,51,casado,no,fijo,35,205,4000,0,950,1017
+bueno,20,padres,36,45,casado,no,freelance,60,71,5000,0,1000,1390
+bueno,3,propietario,48,28,casado,no,fijo,35,177,4000,3000,1150,1638
+bueno,2,propietario,36,42,casado,no,fijo,45,92,800,0,1200,2274
+malo,0,alquila,36,41,casado,no,freelance,35,NA,0,0,800,1250
+malo,0,padres,36,28,soltero,no,tiempo parcial,35,67,3500,0,1500,1539
+bueno,1,propietario,36,36,casado,no,fijo,35,100,7000,0,2000,2500
+malo,1,padres,60,35,soltero,no,fijo,35,75,0,0,1340,1350
+bueno,30,propietario,60,55,casado,no,freelance,35,100,70000,0,1175,1574
+bueno,1,propietario,12,22,casado,no,fijo,35,117,4000,0,275,450
+bueno,2,otra,48,24,casado,no,fijo,35,63,4000,0,700,985
+bueno,4,otra,60,25,casado,no,fijo,35,146,0,0,800,1400
+bueno,3,padres,48,26,soltero,no,fijo,35,200,0,0,1400,1500
+bueno,10,propietario,60,35,separado,no,fijo,35,300,5000,2500,1350,1369
+malo,4,propietario,60,40,casado,sí,fijo,60,231,7000,3000,1100,1291
+bueno,1,alquila,60,34,casado,no,fijo,58,130,0,0,1000,1101
+bueno,12,propietario,24,38,casado,no,fijo,60,114,4000,600,400,1169
+bueno,2,propietario,12,30,casado,no,fijo,35,110,15000,0,700,1355
+bueno,1,propietario,48,41,casado,no,fijo,60,72,7000,0,700,985
+malo,0,alquila,36,38,separado,no,fijo,48,125,0,0,500,585
+malo,5,alquila,48,33,casado,sí,freelance,60,NA,0,0,2000,2652
+bueno,1,alquila,60,32,casado,no,tiempo parcial,75,154,0,0,1500,1517
+bueno,15,propietario,60,29,casado,sí,fijo,60,100,12000,0,500,2038
+bueno,22,alquila,60,38,casado,no,fijo,70,100,0,0,500,982
+malo,0,padres,60,25,soltero,no,tiempo parcial,35,82,0,0,700,1715
+bueno,10,propietario,12,42,casado,sí,freelance,35,105,4000,0,380,913
+bueno,19,propietario,48,52,casado,no,fijo,60,68,6000,0,850,1393
+bueno,8,propietario,24,40,casado,no,freelance,45,107,3500,0,400,475
+bueno,12,propietario,36,55,casado,no,fijo,45,104,5000,0,275,575
+malo,1,otra,36,46,casado,sí,fijo,35,150,0,0,3000,4250
+bueno,15,propietario,60,58,casado,no,tiempo parcial,35,100,12000,0,1300,1380
+bueno,25,ignorar,36,48,casado,sí,freelance,60,82,20000,0,1200,1588
+bueno,40,propietario,60,54,casado,sí,fijo,45,220,13500,0,1543,1668
+bueno,25,propietario,60,53,casado,sí,fijo,35,116,3000,42,1450,1524
+bueno,24,propietario,36,61,casado,no,fijo,35,230,10000,0,600,1350
+malo,3,propietario,48,21,soltero,no,fijo,35,466,6000,0,2700,3100
+bueno,5,alquila,36,32,casado,no,fijo,61,159,0,0,800,890
+malo,3,padres,48,24,casado,sí,fijo,45,58,0,0,1000,1650
+bueno,4,alquila,60,25,casado,no,fijo,51,163,0,0,1000,1197
+malo,8,padres,60,38,casado,no,freelance,60,NA,0,0,1300,1480
+bueno,5,propietario,36,34,casado,no,fijo,45,137,20000,0,3000,5000
+bueno,3,otra,48,39,casado,no,freelance,60,50,5000,0,900,1177
+bueno,12,propietario,60,45,casado,no,fijo,75,131,5000,0,1150,1452
+bueno,12,propietario,36,43,casado,no,fijo,45,70,5000,0,700,1487
+malo,3,privado,60,36,casado,no,freelance,60,NA,3000,120,1600,1689
+bueno,2,alquila,48,34,separado,sí,fijo,44,90,7000,0,600,1063
+bueno,12,privado,48,51,casado,no,fijo,45,110,3000,800,1100,1300
+bueno,20,propietario,6,40,casado,no,freelance,60,300,60000,0,600,1904
+bueno,18,propietario,36,38,casado,no,fijo,60,104,6000,0,750,1367
+bueno,3,padres,36,29,soltero,sí,fijo,35,108,0,0,1000,1245
+malo,5,propietario,60,49,casado,sí,fijo,75,148,3000,200,1500,1657
+bueno,3,propietario,48,33,casado,no,fijo,45,208,10000,4800,900,1232
+malo,0,otra,36,21,soltero,no,tiempo parcial,35,48,0,0,400,650
+bueno,23,propietario,36,45,casado,no,fijo,45,230,7500,0,1350,1520
+bueno,12,otra,36,33,casado,no,fijo,45,267,0,0,1000,1696
+bueno,2,padres,48,22,soltero,sí,fijo,35,187,15000,0,1100,1170
+bueno,20,propietario,48,52,casado,sí,fijo,60,170,9000,0,1900,2320
+bueno,7,propietario,60,28,casado,no,fijo,45,88,30000,0,2500,3415
+malo,0,padres,36,31,soltero,no,tiempo parcial,35,71,0,0,1000,1454
+bueno,3,propietario,48,26,casado,no,fijo,35,92,5000,0,600,1550
+malo,0,propietario,60,34,casado,sí,otros,45,95,10000,360,1350,1766
+malo,2,alquila,48,20,soltero,no,fijo,48,125,0,0,1150,1234
+malo,6,alquila,36,36,casado,sí,fijo,74,138,0,0,1350,1750
+malo,3,propietario,60,35,casado,sí,fijo,60,143,7000,0,2100,3038
+bueno,16,propietario,60,31,casado,no,fijo,35,218,14000,2800,300,1373
+bueno,14,propietario,60,32,casado,sí,fijo,45,120,5000,0,400,965
+bueno,6,padres,36,33,soltero,no,fijo,35,120,0,0,425,600
+bueno,13,propietario,60,32,divorciado,no,fijo,60,130,8000,5000,1400,1508
+bueno,25,privado,60,49,casado,no,fijo,35,165,5000,0,1720,2084
+bueno,2,propietario,36,24,casado,no,freelance,45,NA,4000,1900,700,1780
+bueno,25,propietario,60,41,casado,sí,fijo,45,114,5500,4500,1600,1665
+bueno,2,padres,60,25,soltero,no,fijo,35,84,0,0,1150,1705
+bueno,1,privado,60,24,soltero,no,fijo,35,174,7000,6500,950,1468
+malo,12,alquila,36,36,casado,sí,fijo,74,140,0,0,1400,1725
+bueno,10,propietario,6,52,casado,no,freelance,35,142,24000,0,300,1064
+malo,3,alquila,60,24,casado,no,fijo,54,90,0,0,1442,1597
+bueno,9,otra,60,25,casado,no,fijo,35,75,0,0,700,1381
+bueno,1,alquila,60,26,soltero,no,tiempo parcial,42,74,0,0,750,778
+malo,2,alquila,60,41,casado,sí,fijo,57,124,0,0,1200,1496
+malo,1,alquila,36,22,soltero,no,fijo,46,110,0,0,900,950
+bueno,16,propietario,48,55,casado,no,fijo,45,120,2500,0,650,1551
+bueno,6,propietario,60,52,casado,no,fijo,60,205,7000,3500,1000,1151
+bueno,40,propietario,36,58,casado,no,freelance,45,NA,26000,0,1500,2554
+bueno,0,padres,48,21,soltero,sí,fijo,35,140,0,0,1350,1566
+bueno,3,padres,36,21,soltero,no,freelance,45,38,3000,0,500,620
+malo,5,propietario,60,30,casado,sí,freelance,45,107,8000,0,2500,3106
+bueno,5,alquila,60,50,casado,no,fijo,53,77,0,0,700,1493
+bueno,3,propietario,60,31,casado,sí,fijo,45,190,5000,3500,600,1570
+bueno,0,propietario,48,65,casado,no,otros,45,175,5000,0,600,1176
+bueno,25,propietario,36,54,casado,sí,freelance,45,285,7000,0,900,1383
+bueno,0,privado,60,35,casado,no,tiempo parcial,45,129,4500,0,1160,1465
+bueno,2,propietario,60,27,soltero,no,otros,35,NA,40000,23500,2000,2038
+bueno,6,privado,60,33,casado,no,fijo,45,114,3000,1800,1150,1180
+bueno,12,otra,60,48,casado,no,tiempo parcial,35,108,0,0,1200,1579
+malo,1,alquila,60,37,separado,sí,tiempo parcial,66,60,0,0,1500,2800
+bueno,5,propietario,60,31,casado,no,fijo,35,100,5000,0,900,1263
+bueno,6,propietario,60,43,casado,sí,freelance,45,140,4300,0,2200,2500
+bueno,1,propietario,36,26,casado,no,fijo,35,154,7000,1700,1400,1735
+bueno,34,propietario,60,50,casado,sí,fijo,60,150,9000,0,1300,1700
+bueno,20,propietario,48,47,casado,no,fijo,75,175,4000,0,875,1098
+bueno,6,propietario,60,26,casado,no,fijo,45,260,5000,2500,1300,2072
+malo,4,privado,36,38,casado,no,tiempo parcial,75,170,5000,1500,650,700
+bueno,3,propietario,24,64,casado,no,otros,45,172,8000,0,400,1115
+malo,0,alquila,60,36,casado,sí,tiempo parcial,75,150,0,0,1500,1642
+bueno,8,propietario,48,40,soltero,no,freelance,35,NA,5000,0,1200,1678
+malo,8,propietario,36,51,viudo,no,fijo,35,92,2500,0,875,1150
+bueno,6,padres,60,31,casado,no,fijo,45,199,0,0,1200,1700
+malo,3,alquila,48,26,casado,sí,freelance,45,NA,0,0,1400,1704
+malo,1,padres,48,18,soltero,no,tiempo parcial,35,130,2500,600,1280,1285
+bueno,4,ignorar,18,37,casado,no,fijo,45,200,3000,0,400,1800
+malo,8,propietario,60,37,casado,no,fijo,75,50,15000,0,1400,1645
+bueno,20,propietario,60,38,casado,no,freelance,60,NA,15000,0,1000,1638
+bueno,3,propietario,42,41,casado,no,freelance,35,NA,40000,0,1460,2191
+bueno,10,propietario,60,33,soltero,no,fijo,45,219,4000,0,950,1104
+malo,2,propietario,60,31,separado,no,fijo,35,63,2000,0,1000,1342
+bueno,1,propietario,60,31,viudo,sí,fijo,35,242,9000,0,1500,1656
+malo,6,padres,60,22,soltero,sí,fijo,35,100,0,0,1200,1496
+bueno,23,propietario,60,50,casado,sí,freelance,90,69,NA,0,1450,1510
+bueno,6,propietario,48,52,casado,no,fijo,45,190,3500,0,1500,1905
+bueno,3,propietario,60,49,casado,no,fijo,35,160,3000,0,900,975
+malo,1,otra,48,30,casado,sí,tiempo parcial,75,77,0,0,1200,1300
+malo,1,alquila,60,39,casado,no,fijo,69,92,0,0,900,1020
+bueno,22,propietario,60,46,casado,no,fijo,60,75,3000,600,950,1263
+malo,0,propietario,24,37,casado,no,tiempo parcial,60,90,3500,0,500,963
+bueno,0,alquila,48,23,soltero,no,freelance,49,140,0,0,550,550
+bueno,5,propietario,60,32,casado,no,freelance,60,140,4000,1000,1350,1650

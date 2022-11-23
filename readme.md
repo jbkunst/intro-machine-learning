@@ -34,7 +34,7 @@ Introducción al Machine Learning
 1.  [Machine Learning & Árboles
     <code><small>parykit</small></code>](https://jbkunst.github.io/intro-machine-learning/slides/01-Machine-Learning-Arboles.html)
 2.  [Regresión
-    Logística](https://jbkunst.github.io/intro-machine-learning/slides/01-Regresion-Logística.html)
+    Logística](https://jbkunst.github.io/intro-machine-learning/slides/02-Regresion-Logística.html)
 
 ## Repositorio
 
