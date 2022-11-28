@@ -60,7 +60,7 @@ Lea los datos de la clase anterior:
 los "mejores" $(\beta_0, \beta_1)$.
 
 1. Grafique un diagrama de puntos utilizando las variables $x = elevation$ e $y = price$ y coloreando
-por $z = in_sf$. 
+por $z = in\_sf$. 
 
 
 ---
@@ -229,10 +229,66 @@ knitr::kable(tibble_rl_mod(df))
 ## Ejercicios II
 
 
-1. En los datos del repositorio lea los datos de crédto de entrenamiento y
+1. En los datos del repositorio lea los datos de crédito de entrenamiento y
 valdación (train/test si le gusta el _ingelishon_).
 
 1. Encuentre el mejor modelo de regresión logística con 4 variables. Use su intuición
 sobre lo que intuye/conoce del _negocio_.
 
 1. Que modelo (árbol/regresión logística) performa mejor en la muestra de validación?
+
+
+---
+
+## Árbol vs Regresión logsítica
+
+_Depdenderá_ siempre del contexto y de los datos. 
+
+1. El árbol es un buen método para un primer entendimiento dada su
+forma de visualizarse.
+1. En términos predictivos el árbol se sobreajusta.
+
+
+```{r, echo=TRUE, eval=FALSE}
+source("https://raw.githubusercontent.com/jbkunst/shiny-apps-edu/master/run_app.R")
+
+run_app("decision-tree")
+run_app("logistic-regression")
+```
+
+---
+
+## Métricas de evaluación
+
+Usualmente hemos hablado del *accuracy* (porcentaje de correcta clasificación)
+como la métrica a _mejorar_.
+
+Es una métrica fácil de interpretar, pero no es la mejor métrica en casos 
+donde la tasa de un evento y otro es desbalanceada.
+
+> Suponga que 1 de cada 100 personas tiene una enfermendad. Mi modelo funciona
+de manera tal que _siempre_ da como predicción "esta sano". 
+
+Descrito lo anterior, el modelo tiene un accuracy del 99% :). 
+
+Por lo anterior existen otras métricas que evalúan la efectividad del 
+clasificador.
+
+---
+
+## Matriz de confusión y Curva ROC
+
+Matrix de confusión:
+
+- Matriz de confusión: https://cran.r-project.org/web/packages/riskyr/vignettes/C_confusion_matrix.html
+- F-Score: https://en.wikipedia.org/wiki/F-score
+
+
+Curva ROC (auc):
+
+- Binary Predictions Metrics: http://mfviz.com/binary-predictions/
+- Understanding ROC curves: http://www.navan.name/roc/
+- Curvas ROC: Elección de puntos de corte y área bajo la curva (AUC) 
+- Receiver Operating Characteristic (ROC) Curves: https://kennis-research.shinyapps.io/ROC-Curves/
+
+
