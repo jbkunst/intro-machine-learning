@@ -1,0 +1,94 @@
+---
+title: "Tarea 2 - 2022 2do Semestre"
+subtitle: "Introducción al Machine Learning" 
+output: 
+  cleanrmd::html_document_clean:
+    theme: new.css
+editor_options: 
+  chunk_output_type: console
+---
+
+<link rel="stylesheet" href="https://latex.now.sh/style.css">
+
+## Consideraciones en la entrega 
+
+```{r, include=FALSE}
+library(tidyverse)
+```
+
+- La tarea debe ser enviada en forma de script, por ejemplo `mi_archivo.R`.
+- Al comienzo del script deben identificarse los integrandes del grupo, máximo 3.
+- El script debe generar, en orden, los resultados solicitados. Agregando en forma 
+de comentarios (`los comentarios parten con #`) cualquier respuesta o información
+adicional que se requiera. 
+- El script debe ser reproducible. El archivo .R debe poder ejecutarse sin problemas por cualquier persona con el programa, siguiendo el orden lógico requerido para ello.
+- La fecha de entrega es domingo 13 noviembre 2022. Por día se baja un punto.
+
+## Datos a utilizar
+
+Los datos a utilizar corresponde a registros históricos de dos años (2011 y 2012) del sistema 
+"Capital Bikeshare", en Washington D.C. Existen dos versiones de estos datos: (1) agrupados
+por hora y (2) por día; los cuales encontrará en [repositorio](https://github.com/jbkunst/intro-machine-learning/tree/main/data) como `bike_hour.csv`
+y `bike_day.csv`.
+
+El proceso de alquiler de bicicletas compartidas está altamente correlacionado con los entornos 
+ambientales y estacionales. La precipitación, el día de la semana, la estación, la hora del día, etc. 
+pueden afectar los comportamientos de alquiler.
+
+La variable de interés es `cnt` que contiene las bicicletas rentadas en cada observación.
+
+```{r, message=FALSE}
+library(tidyverse)
+bicihora <- read_csv("https://raw.githubusercontent.com/jbkunst/intro-machine-learning/main/data/bike_hour.csv")
+glimpse(bicihora)
+```
+
+Al final del documento encontrará un anexo con las definiciones de las variables.
+
+
+# Preguntas
+
+Todas las preguntas valen 1 punto exceptuando los casos en que se indique lo contrario.
+
+1. ¿Qué columnas le hacen sentido serán las más importantes en el proceso de 
+crear en un modelo para predecir cuántas bicicletas serán arrendadas en un día? ¿Por qué?
+1. Elimine las columnas `casual` y `registered` de los datos.
+1. Realice un diagrama de dispersión entre las variables `dteday` y la variable `cnt`. ¿Qué observa?
+1. Cree dos tablas a partir de `bicihora`: Una para utilizarla como muestra de entrenamiento considerando todos los registros previos (no inclusive) al primero de julio del 2012, y el complemento como muestra de validación. (hint: utilice la funcion `ymd` del paquete lubridate, por ejemplo  `ymd(20220101)`.
+1. En clases se conversó que la muestra de entrenamiento/validación tenía que obtenerse de
+forma aleatoria, en este caso -pregunta anterior- se realiza de manera determinística.
+¿Por qué podría tener sentido realizarlo de esta forma?
+1. Ajuste un árbol con la función `ctree` y con profundidad 5. Comenté el árbol obtenido y obtenga el error cuadrático medio ($MSE$) tanto en la muestra de entrenamiento y validación.
+<!-- 1. Ajuste un 2do árbol con máxima profundidad 8. Compare con los errores cuadráticos de la pregunta anterior. -->
+<!-- ¿Era de esperar estos resultados? ¿Por qué? -->
+1. (2 puntos) Ajuste un modelo de random forest en la muestra de entrenamiento. Luego genere la prediccion de la cantidad 
+de bicicletas arrenadas por *día* en la muestra de validación, mencionando el $MSE$ a nivel día.
+1. (2 puntos) Repita el ejercicio anterior pero con los datos ya diarios `bike_day.csv`. ¿Con que metodología se obtiene mejores
+resultados en términos de $MSE$? ¿Era de esperar dichos resultados?
+
+## Anexo
+
+Definción y detalles de las variables:
+
+- instant: record index
+- dteday : date
+- season : season (1:springer, 2:summer, 3:fall, 4:winter)
+- yr : year (0: 2011, 1:2012)
+- mnth : month ( 1 to 12)
+- hr : hour (0 to 23)
+- holiday : weather day is holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
+- weekday : day of the week
+- workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
++ weathersit : 
+	- 1: Clear, Few clouds, Partly cloudy, Partly cloudy
+	- 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+	- 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+	- 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+- temp : Normalized temperature in Celsius. The values are divided to 41 (max)
+- atemp: Normalized feeling temperature in Celsius. The values are divided to 50 (max)
+- hum: Normalized humidity. The values are divided to 100 (max)
+- windspeed: Normalized wind speed. The values are divided to 67 (max)
+- casual: count of casual users
+- registered: count of registered users
+- cnt: count of total rental bikes including both casual and registered
+
